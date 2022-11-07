@@ -1,0 +1,102 @@
+{
+  "uuid": "b6c8461c-6422-4a96-a93d-5d623d926bbc-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "fullName": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckConfirmBlock18ageInTheAdultPage"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка отображения блока с подтверждением возраста 18+"
+    }
+  ],
+  "links": [],
+  "name": "CheckConfirmBlock18ageInTheAdultPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@data-test-id = 'block__adult-notification']]",
+    "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Displayed()\r\n   at Selenium.PageObjects.ProductsForAdultsPageObject.NotificationIsVisible() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ProductsForAdultsPageObject.cs:line 21\r\n   at Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 44"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckConfirmBlock18ageInTheAdultPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@data-test-id = 'block__adult-notification']]",
+        "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Displayed()\r\n   at Selenium.PageObjects.ProductsForAdultsPageObject.NotificationIsVisible() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ProductsForAdultsPageObject.cs:line 21\r\n   at Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 44"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открытие доп раздела 'Ещё' в майн бар",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667264604658,
+          "stop": 1667264605874
+        },
+        {
+          "name": "Переход на станицу Товары для взрослых",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667264605874,
+          "stop": 1667264606494
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2a3b59bdbcc54eadb869c5502c57c4af-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667264602484,
+      "stop": 1667264606536
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667264602483,
+  "stop": 1667264606539
+}

@@ -1,0 +1,138 @@
+{
+  "uuid": "9a0ca80c-3eeb-43ca-8057-ce598fe134f8-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice",
+  "fullName": "Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSortMinPriceInINputPrice25ProcentFromMaxPrice"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка соотвествия минимальной цены товара в поле ввода минимальной цены, и первого отображаемого товара"
+    }
+  ],
+  "links": [],
+  "name": "CheckSortMinPriceInINputPrice25ProcentFromMaxPrice",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 118\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSortMinPriceInINputPrice25ProcentFromMaxPrice",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 118\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Обувь",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667810152997,
+          "stop": 1667810154616
+        },
+        {
+          "name": "Выбор критерия сортировки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Клик на кнопку сортровки товара",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667810156899,
+              "stop": 1667810156950
+            },
+            {
+              "name": "Выбор парметра сортировки: Подешевле",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667810156951,
+              "stop": 1667810157064
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Подешевле"
+            }
+          ],
+          "start": 1667810154616,
+          "stop": 1667810157064
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "38283c15953d4b6fad2ecd7cb26bc862-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667810150325,
+      "stop": 1667810162258
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667810150324,
+  "stop": 1667810162260
+}

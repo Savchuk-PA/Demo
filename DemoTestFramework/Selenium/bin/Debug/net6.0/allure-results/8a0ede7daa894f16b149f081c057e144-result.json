@@ -1,0 +1,89 @@
+{
+  "uuid": "8724247d-0ddb-453b-b578-0dcb526f4ea1-tr-0-1001",
+  "historyId": "Selenium.SearchTests.CheckSearchManufactureName",
+  "fullName": "Selenium.SearchTests.CheckSearchManufactureName",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSearchManufactureName"
+    },
+    {
+      "name": "testClass",
+      "value": "SearchTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поиск товара"
+    }
+  ],
+  "links": [],
+  "name": "CheckSearchManufactureName",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSearchManufactureName"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSearchManufactureName",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Ввод в строку поиска",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Xiaomi"
+            }
+          ],
+          "start": 1666960457753,
+          "stop": 1666960459079
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4e3554557c934cfca9c601ddfb7326d7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666960455570,
+      "stop": 1666960461533
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666960455570,
+  "stop": 1666960461536
+}

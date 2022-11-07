@@ -1,0 +1,19 @@
+﻿{
+  "testUser1" : {
+    "login": "+79061177915",
+    "password": "123456aA",
+    "name": "Абрахам"
+  },
+  "testUser2" : {
+    "login": "+79061177915",
+    "password": "aaa7"
+  },
+  "testUserNovalidLoginAndPassword" : {
+    "login": "w",
+    "password": "aaa3434^&ew"
+  },
+  "errorMesageAuthShortPassword" : {
+    "message": "Минимум 8 символов"
+  }
+  
+}

@@ -1,0 +1,84 @@
+{
+  "uuid": "e8573c0a-aeec-4f12-9734-7013e463d2e4-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "fullName": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckConfirmBlock18ageInTheAdultPage"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка отображения блока с подтверждением возраста 18+"
+    }
+  ],
+  "links": [],
+  "name": "CheckConfirmBlock18ageInTheAdultPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckConfirmBlock18ageInTheAdultPage"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckConfirmBlock18ageInTheAdultPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открытие доп раздела 'Ещё' в майн бар",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667269921400,
+          "stop": 1667269923281
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d0880f478de046d8b354a3aac3afe0e5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667269920108,
+      "stop": 1667269923364
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667269920108,
+  "stop": 1667269923367
+}

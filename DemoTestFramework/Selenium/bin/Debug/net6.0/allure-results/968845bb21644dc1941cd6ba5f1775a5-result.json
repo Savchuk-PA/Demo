@@ -1,0 +1,89 @@
+{
+  "uuid": "d2391a05-6012-495b-89eb-d8a670b6bdb5-tr-0-1001",
+  "historyId": "Selenium.LoginTests.PositiveLoginUser",
+  "fullName": "Selenium.LoginTests.PositiveLoginUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "PositiveLoginUser"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    },
+    {
+      "name": "tag",
+      "value": "Вход под пользавтелем с валидными данными"
+    }
+  ],
+  "links": [],
+  "name": "PositiveLoginUser",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href = '/#']\"}\n  (Session info: chrome=106.0.5249.119)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsVisble(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 45\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_ClickloginButton_100663343_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 25\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_ClickloginButton_100663343_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_ClickloginButton_100663343_w_0(Object[] )\r\n   at Selenium.PageObjects.MainMenuPageObject.ClickloginButton() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 24\r\n   at Selenium.LoginTests.PositiveLoginUser() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 33\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "PositiveLoginUser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href = '/#']\"}\n  (Session info: chrome=106.0.5249.119)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsVisble(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 45\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_ClickloginButton_100663343_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 25\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_ClickloginButton_100663343_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_ClickloginButton_100663343_w_0(Object[] )\r\n   at Selenium.PageObjects.MainMenuPageObject.ClickloginButton() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 24\r\n   at Selenium.LoginTests.PositiveLoginUser() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 33\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Клик на кнопку Вход",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Timed out after 5 seconds",
+            "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsVisble(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 45\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_ClickloginButton_100663343_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 25\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_ClickloginButton_100663343_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1666783425071,
+          "stop": 1666783430277
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0ebc0ce78f7e4d3298efbb414005ad94-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666783421938,
+      "stop": 1666783430281
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666783421938,
+  "stop": 1666783430281
+}

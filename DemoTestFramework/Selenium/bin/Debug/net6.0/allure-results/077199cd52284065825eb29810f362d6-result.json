@@ -1,0 +1,73 @@
+{
+  "uuid": "be11cc8b-d37b-4ada-b260-36d1a73f3592-tr-0-1003",
+  "historyId": "Selenium.TestForTests.ScreenFooter(740,1280)",
+  "fullName": "Selenium.TestForTests.ScreenFooter(740,1280)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "ScreenFooter"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    }
+  ],
+  "links": [],
+  "name": "ScreenFooter(740,1280)",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ScreenFooter(740,1280)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ScreenFooter(740,1280)",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bd528f4f82354155a578c2a679ae579b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667815338879,
+      "stop": 1667815340793
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "740"
+    },
+    {
+      "name": "Param #1",
+      "value": "1280"
+    }
+  ],
+  "start": 1667815338879,
+  "stop": 1667815340793
+}

@@ -1,0 +1,84 @@
+{
+  "uuid": "7fe59060-40e8-42d5-b7eb-78988cd32668-tr-0-1001",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionFoodOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionFoodOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionFoodOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Продукты питания"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionFoodOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionFoodOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionFoodOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667255975082,
+          "stop": 1667255977443
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e7a4db2cb43d4646833fa2c08d7d90a8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667255971431,
+      "stop": 1667255977454
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667255971431,
+  "stop": 1667255977456
+}

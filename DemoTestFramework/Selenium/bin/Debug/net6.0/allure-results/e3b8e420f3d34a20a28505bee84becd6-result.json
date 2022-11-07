@@ -1,0 +1,99 @@
+{
+  "uuid": "291fc100-eae1-43d9-ab62-991b78f47c14-tr-0-1011",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionChildrensProductsOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionChildrensProductsOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionChildrensProductsOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Детские товары"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionChildrensProductsOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionChildrensProductsOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionChildrensProductsOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Десткие товары",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809477985,
+          "stop": 1667809478242
+        },
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809478242,
+          "stop": 1667809480761
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "36fbb55f08714b44b43f122c1edb90ab-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667809476738,
+      "stop": 1667809480763
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667809476738,
+  "stop": 1667809480763
+}

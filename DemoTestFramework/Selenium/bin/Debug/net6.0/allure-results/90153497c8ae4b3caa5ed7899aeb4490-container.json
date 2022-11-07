@@ -1,0 +1,80 @@
+{
+  "uuid": "4b7f9f8d-e0a5-4cdf-82cb-892e91638449-tc-0-1000",
+  "name": "Selenium.LoginTests.PositiveLoginUser",
+  "children": [
+    "caabd09f-bffd-44c7-830a-863676a92ef4-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1666783329020,
+      "stop": 1666783329020
+    },
+    {
+      "name": "SetUp",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : invalid session id\r\nTearDown : OpenQA.Selenium.WebDriverException : invalid session id",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at Selenium.LoginTests.SetUp() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 21\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Close()\r\n   at Selenium.LoginTests.TearDown() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 97"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1666783329020,
+      "stop": 1666783329020
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : invalid session id\r\nTearDown : OpenQA.Selenium.WebDriverException : invalid session id",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at Selenium.LoginTests.SetUp() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 21\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Close()\r\n   at Selenium.LoginTests.TearDown() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 97"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1666783329020,
+      "stop": 1666783329020
+    },
+    {
+      "name": "OneTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1666783329020,
+      "stop": 1666783329020
+    }
+  ],
+  "links": [],
+  "start": 1666783328983,
+  "stop": 1666783329021
+}

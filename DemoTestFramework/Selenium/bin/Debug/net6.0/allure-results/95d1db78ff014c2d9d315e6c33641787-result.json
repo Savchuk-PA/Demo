@@ -1,0 +1,84 @@
+{
+  "uuid": "98e39bf1-830f-46d1-8f61-baac5982c48d-tr-0-1006",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionBeautyOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionBeautyOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionBeautyOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Красота"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionBeautyOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionBeautyOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionBeautyOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667654146935,
+          "stop": 1667654149321
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "009276c4fb8b4c0ab901c0485e7d579e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667654145504,
+      "stop": 1667654149323
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667654145504,
+  "stop": 1667654149323
+}

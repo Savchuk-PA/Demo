@@ -1,0 +1,87 @@
+{
+  "uuid": "7fda2355-efb8-4f9f-8e45-758120c8dde0-tr-0-1001",
+  "historyId": "Selenium.CheckNameSectionPage.CheckSectionShoesOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPage.CheckSectionShoesOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionShoesOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPage"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Обувь"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionShoesOfTheSite",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Ожидалось Обувь, получено Одежда\r\n  Expected string length 5 but was 6. Strings differ at index 1.\r\n  Expected: \"Обувь\"\r\n  But was:  \"Одежда\"\r\n  ------------^\r\n",
+    "trace": "   at Selenium.CheckNameSectionPage.CheckSectionShoesOfTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPage.cs:line 88\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionShoesOfTheSite",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Ожидалось Обувь, получено Одежда\r\n  Expected string length 5 but was 6. Strings differ at index 1.\r\n  Expected: \"Обувь\"\r\n  But was:  \"Одежда\"\r\n  ------------^\r\n",
+        "trace": "   at Selenium.CheckNameSectionPage.CheckSectionShoesOfTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPage.cs:line 88\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667229374430,
+          "stop": 1667229376801
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "22d36d683a124e66a97ba076ec0170fb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667229371147,
+      "stop": 1667229379279
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667229371147,
+  "stop": 1667229379281
+}

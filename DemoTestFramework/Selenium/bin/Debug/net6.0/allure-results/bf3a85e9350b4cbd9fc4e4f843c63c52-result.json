@@ -1,0 +1,102 @@
+{
+  "uuid": "b2e73bb5-c67a-4804-8b2a-5f1f651d21ab-tr-0-1001",
+  "historyId": "Selenium.TestForTests.AddToFavorites",
+  "fullName": "Selenium.TestForTests.AddToFavorites",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddToFavorites"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Добавление в избраное"
+    }
+  ],
+  "links": [],
+  "name": "AddToFavorites",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Ожидалось oga, получено Сланцы мужские на высокой подошве, 3 цвета\r\n  Expected string length 42 but was 3. Strings differ at index 0.\r\n  Expected: \"Сланцы мужские на высокой подошве, 3 цвета\"\r\n  But was:  \"oga\"\r\n  -----------^\r\n",
+    "trace": "   at Selenium.TestForTests.AddToFavorites() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 147\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "AddToFavorites",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Ожидалось oga, получено Сланцы мужские на высокой подошве, 3 цвета\r\n  Expected string length 42 but was 3. Strings differ at index 0.\r\n  Expected: \"Сланцы мужские на высокой подошве, 3 цвета\"\r\n  But was:  \"oga\"\r\n  -----------^\r\n",
+        "trace": "   at Selenium.TestForTests.AddToFavorites() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 147\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Обувь",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667731455358,
+          "stop": 1667731456003
+        },
+        {
+          "name": "Переход в раздел избраное",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667731466205,
+          "stop": 1667731466353
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f48be2b88de34bd8a4685008d9ab4752-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667731453358,
+      "stop": 1667731466407
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667731453358,
+  "stop": 1667731466409
+}

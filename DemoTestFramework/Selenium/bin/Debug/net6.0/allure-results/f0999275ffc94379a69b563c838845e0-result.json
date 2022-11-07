@@ -1,0 +1,89 @@
+{
+  "uuid": "4dee0bc2-340c-4ad0-a149-ff6c9f0306ca-tr-0-1001",
+  "historyId": "Selenium.SearchTests.CheckCountCardsProductInPage",
+  "fullName": "Selenium.SearchTests.CheckCountCardsProductInPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCountCardsProductInPage"
+    },
+    {
+      "name": "testClass",
+      "value": "SearchTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка количества отображаемых карточек товара на странице, по поиску товара"
+    }
+  ],
+  "links": [],
+  "name": "CheckCountCardsProductInPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckCountCardsProductInPage"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckCountCardsProductInPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Ввод в строку поиска",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Часы"
+            }
+          ],
+          "start": 1666961501033,
+          "stop": 1666961502425
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f15e05f911714064b2dfb9003f4811cb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666961498630,
+      "stop": 1666961504886
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666961498630,
+  "stop": 1666961504889
+}

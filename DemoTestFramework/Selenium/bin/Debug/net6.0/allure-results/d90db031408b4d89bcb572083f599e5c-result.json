@@ -1,0 +1,67 @@
+{
+  "uuid": "8fbe3e91-8963-4681-8930-9b89c3a932ac-tr-0-1001",
+  "historyId": "Selenium.TestForTests.ScreenTestFooter",
+  "fullName": "Selenium.TestForTests.ScreenTestFooter",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "ScreenTestFooter"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    }
+  ],
+  "links": [],
+  "name": "ScreenTestFooter",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.JavaScriptException : javascript error: missing ) after argument list\n  (Session info: chrome=107.0.5304.88)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)\r\n   at OpenQA.Selenium.WebDriver.ExecuteScript(String script, Object[] args)\r\n   at Selenium.TestForTests.ScreenTestFooter() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 180"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ScreenTestFooter",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.JavaScriptException : javascript error: missing ) after argument list\n  (Session info: chrome=107.0.5304.88)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)\r\n   at OpenQA.Selenium.WebDriver.ExecuteScript(String script, Object[] args)\r\n   at Selenium.TestForTests.ScreenTestFooter() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 180"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e909ae96391b4a2ca9912dfb0cc5be70-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667814156034,
+      "stop": 1667814158285
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667814156034,
+  "stop": 1667814158287
+}

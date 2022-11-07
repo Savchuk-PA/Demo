@@ -1,0 +1,128 @@
+{
+  "uuid": "3d565a21-61ea-4379-a510-e148364db66d-tr-0-1001",
+  "historyId": "Selenium.KazanExpressTests.LoginUser",
+  "fullName": "Selenium.KazanExpressTests.LoginUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginUser"
+    },
+    {
+      "name": "testClass",
+      "value": "KazanExpressTests"
+    },
+    {
+      "name": "tag",
+      "value": "Вход под пользавтелем"
+    }
+  ],
+  "links": [],
+  "name": "LoginUser",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@data-test-id = 'button__user']\"}\n  (Session info: chrome=106.0.5249.119)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_GetUserName_100663317_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 28\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_GetUserName_100663317_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_GetUserName_100663317_w_0(Object[] )\r\n   at Selenium.PageObjects.MainMenuPageObject.GetUserName()\r\n   at Selenium.KazanExpressTests.LoginUser() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\KazanExpressTests.cs:line 37"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LoginUser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@data-test-id = 'button__user']\"}\n  (Session info: chrome=106.0.5249.119)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_GetUserName_100663317_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 28\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_GetUserName_100663317_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_GetUserName_100663317_w_0(Object[] )\r\n   at Selenium.PageObjects.MainMenuPageObject.GetUserName()\r\n   at Selenium.KazanExpressTests.LoginUser() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\KazanExpressTests.cs:line 37"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Нажатие кнопки войти на главной странице",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1666467893435,
+          "stop": 1666467893560
+        },
+        {
+          "name": "Заполнение формы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "+79061177915"
+            },
+            {
+              "name": "String",
+              "value": "123456aA"
+            }
+          ],
+          "start": 1666467893560,
+          "stop": 1666467893746
+        },
+        {
+          "name": "Получение имени пользователя",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@data-test-id = 'button__user']\"}\n  (Session info: chrome=106.0.5249.119)",
+            "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_GetUserName_100663317_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 28\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_GetUserName_100663317_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1666467898761,
+          "stop": 1666467898796
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e9505cbb9c504e0aa3f4d5da81c6830f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666467886268,
+      "stop": 1666467901238
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666467886268,
+  "stop": 1666467901241
+}

@@ -1,0 +1,84 @@
+{
+  "uuid": "aee85ee3-75b9-4c33-9618-73ba518619aa-tr-0-1003",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionClothingOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionClothingOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionClothingOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Одежда"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionClothingOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionClothingOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionClothingOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667654158276,
+          "stop": 1667654160484
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d2dbfaafcffa44609ea7223561116f6c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667654156934,
+      "stop": 1667654160486
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667654156934,
+  "stop": 1667654160486
+}

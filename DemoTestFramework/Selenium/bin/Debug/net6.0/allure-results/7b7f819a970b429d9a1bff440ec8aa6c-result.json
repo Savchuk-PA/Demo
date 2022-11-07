@@ -1,0 +1,99 @@
+{
+  "uuid": "06c1dab1-d2e5-4361-a8e1-d15ff06ade4a-tr-0-1003",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionClothingOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionClothingOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionClothingOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Одежда"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionClothingOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionClothingOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionClothingOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Одежда",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809481322,
+          "stop": 1667809482201
+        },
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809482201,
+          "stop": 1667809484650
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3717f3d9eca240ddb5371c688dfdd42d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667809480764,
+      "stop": 1667809484651
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667809480764,
+  "stop": 1667809484651
+}

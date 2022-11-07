@@ -1,0 +1,76 @@
+{
+  "uuid": "53440659-0d6f-4115-8d5a-99b880275970-tc-0-1000",
+  "name": "Selenium.LoginTests.NegativeLoginShrotPassword2",
+  "children": [
+    "1fc5e05f-9382-4b8a-ba5c-64c1952ff1c1-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1666790840513,
+      "stop": 1666790840513
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1666790840514,
+      "stop": 1666790840514
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1666790840514,
+      "stop": 1666790840514
+    },
+    {
+      "name": "OneTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1666790840514,
+      "stop": 1666790840514
+    }
+  ],
+  "links": [],
+  "start": 1666790837690,
+  "stop": 1666790840543
+}

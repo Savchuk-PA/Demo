@@ -1,0 +1,117 @@
+{
+  "uuid": "d01fd517-02f5-4af1-b9a9-93843921ab2b-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckVisibleItemCardAfterAgeVerification",
+  "fullName": "Selenium.TestForTests.CheckVisibleItemCardAfterAgeVerification",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckVisibleItemCardAfterAgeVerification"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка отображения блока с подтверждением возраста 18+"
+    }
+  ],
+  "links": [],
+  "name": "CheckVisibleItemCardAfterAgeVerification",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: False\r\n  But was:  True\r\n",
+    "trace": "   at Selenium.TestForTests.CheckVisibleItemCardAfterAgeVerification() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 72\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckVisibleItemCardAfterAgeVerification",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: False\r\n  But was:  True\r\n",
+        "trace": "   at Selenium.TestForTests.CheckVisibleItemCardAfterAgeVerification() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 72\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открытие доп раздела 'Ещё' в майн бар",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667398634615,
+          "stop": 1667398635815
+        },
+        {
+          "name": "Переход на станицу Товары для взрослых",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667398635815,
+          "stop": 1667398636412
+        },
+        {
+          "name": "Нажатие на кнопку 'Да, мне есть 18'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667398636414,
+          "stop": 1667398637655
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "47af24e8816c440ba4b0f0b9e394d1cb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667398632248,
+      "stop": 1667398639129
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667398632248,
+  "stop": 1667398639131
+}

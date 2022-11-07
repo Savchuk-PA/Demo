@@ -1,0 +1,68 @@
+{
+  "uuid": "e19870a0-0e60-4403-874a-39b7d3830201-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "fullName": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckConfirmBlock18ageInTheAdultPage"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка отображения блока с подтверждением возраста 18+"
+    }
+  ],
+  "links": [],
+  "name": "CheckConfirmBlock18ageInTheAdultPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckConfirmBlock18ageInTheAdultPage"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckConfirmBlock18ageInTheAdultPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "44db7292db63420e8709e94b77bde812-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667263674117,
+      "stop": 1667263676964
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667263674117,
+  "stop": 1667263676967
+}

@@ -1,0 +1,123 @@
+{
+  "uuid": "42caea6a-0268-480e-b837-5e2592e96cc5-tr-0-1002",
+  "historyId": "Selenium.LoginTests.NegativeLoginShrotPassword",
+  "fullName": "Selenium.LoginTests.NegativeLoginShrotPassword",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "NegativeLoginShrotPassword"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    },
+    {
+      "name": "tag",
+      "value": "Вход под пользователем с коротким паролем. Негативный тест"
+    }
+  ],
+  "links": [],
+  "name": "NegativeLoginShrotPassword",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "NegativeLoginShrotPassword"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "NegativeLoginShrotPassword",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Клик на кнопку Вход",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1666783399776,
+          "stop": 1666783399904
+        },
+        {
+          "name": "Заполнение формы авторизации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "+79061177915"
+            },
+            {
+              "name": "String",
+              "value": "123456aA"
+            }
+          ],
+          "start": 1666783399904,
+          "stop": 1666783401137
+        },
+        {
+          "name": "Обновление страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1666783401138,
+          "stop": 1666783401148
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "db916979ed824538845cdb89fc8678ce-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666783396739,
+      "stop": 1666783401173
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666783396738,
+  "stop": 1666783401176
+}

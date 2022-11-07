@@ -1,0 +1,92 @@
+{
+  "uuid": "b1c533fa-ba42-4bd9-b4aa-7ef7376c3df7-tr-0-1026",
+  "historyId": "Selenium.SearchTests.CheckSearchManufactureName",
+  "fullName": "Selenium.SearchTests.CheckSearchManufactureName",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSearchManufactureName"
+    },
+    {
+      "name": "testClass",
+      "value": "SearchTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поиск товара"
+    }
+  ],
+  "links": [],
+  "name": "CheckSearchManufactureName",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Selenium.SearchTests.CheckSearchManufactureName() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\SearchTests.cs:line 45\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSearchManufactureName",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Selenium.SearchTests.CheckSearchManufactureName() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\SearchTests.cs:line 45\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Ввод в строку поиска",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Xiaomi"
+            }
+          ],
+          "start": 1667654232895,
+          "stop": 1667654234667
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "db29b7b5ad034d099560b5d9e72732d0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667654231640,
+      "stop": 1667654234737
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667654231640,
+  "stop": 1667654234737
+}

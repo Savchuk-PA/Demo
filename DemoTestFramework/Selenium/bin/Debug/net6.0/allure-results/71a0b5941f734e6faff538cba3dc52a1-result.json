@@ -1,0 +1,114 @@
+{
+  "uuid": "099fa404-4eec-49a8-b7be-37c75cbc345b-tr-0-1029",
+  "historyId": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "fullName": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckConfirmBlock18ageInTheAdultPage"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка отображения блока с подтверждением возраста 18+"
+    }
+  ],
+  "links": [],
+  "name": "CheckConfirmBlock18ageInTheAdultPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckConfirmBlock18ageInTheAdultPage"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckConfirmBlock18ageInTheAdultPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открытие доп раздела 'Ещё' в майн бар",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667654237999,
+          "stop": 1667654238674
+        },
+        {
+          "name": "Переход на станицу Товары для взрослых",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667654238675,
+          "stop": 1667654239262
+        },
+        {
+          "name": "Провека видимости информационного блока 18+",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667654239264,
+          "stop": 1667654240972
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3e698fe2de4d4f109cb8d9c4aa9f51da-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667654235920,
+      "stop": 1667654240972
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667654235920,
+  "stop": 1667654240972
+}

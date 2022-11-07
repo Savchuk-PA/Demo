@@ -1,0 +1,182 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=019847d3_002D619c_002D4e33_002Dbcf8_002D2186e7064374/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckRangePrice #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.CheckRangePriceTests.CheckRangePrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=04970107_002Da797_002D4030_002Db8c3_002D0f13d7783f0a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckSortMinPriceInINputPrice25ProcentFromMaxPrice #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=04f6e477_002Dfb63_002D4c82_002D9b37_002D869a7d52db01/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddToFavorites #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.AddToFavorites&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1ca10931_002D3392_002D4ed5_002D9bdb_002D14b32476146b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckRangePrice" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.CheckRangePriceTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1dd5b0d5_002De507_002D466d_002Dacf2_002D5412e454e2c9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckSortMinPriceInINputPrice25ProcentFromMaxPrice #9" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2274e478_002D4c4e_002D4aef_002D90d3_002Da46b081cbd52/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckCountCardsProductInPage" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.SearchTests.CheckCountCardsProductInPage&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.KazanExpressTests.CheckH1SectionOfTheSite&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.SearchTests.CheckSearchManufactureName&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.LoginTests.PositiveLoginUser&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.LoginTests.NegativeLoginShrotPassword&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.LoginTests&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.KazanExpressTests.CheckH1SectionElectronicsTheSite&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.CheckNameSectionPage.CheckH1SectionOfTheSite&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckVisibleItemCardAfterAgeVerification&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckHideCardItemForAdult&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4/f:CheckNameSectionPageTests.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3e66b3af_002D6bf9_002D4391_002Daee5_002D22eb6c389854/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckSortMinPriceInINputPrice25ProcentFromMaxPrice #12" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortPriceDown&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=44511c63_002Df850_002D40ab_002Da673_002D68c28a33f7c3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckSortMinPriceInINputPrice25ProcentFromMaxPrice #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=486fc18f_002D0941_002D43a6_002Dad08_002Da4f756509ce0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckSortMinPriceInINputPrice25ProcentFromMaxPrice #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=52d10ad4_002Dd51f_002D4345_002D9a02_002Dacb52d1e8f6f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckConfirmBlock18ageInTheAdultPage" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.LoginTests.PositiveLoginUser&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=53c71c06_002D054d_002D4438_002D8aed_002Deb5edcbfd9ae/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckH1SectionOfTheSite" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.CheckNameSectionPage&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=55c69cd4_002D2226_002D4f4d_002D8758_002D76222202fefb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CheckRangePrice #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckRangePrice&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.ScreenTestFooter&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.ScreenFooter&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6a3bb42a_002D5917_002D42c8_002Da520_002D0ec0f3687ec6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckSortMinPriceInINputPrice25ProcentFromMaxPrice #8" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=84e1a8dd_002Dee5c_002D4752_002Db68b_002D306371d12c73/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckSortMinPriceInINputPrice25ProcentFromMaxPrice #10" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.CheckNameSectionPageTests.CheckSectionConstructionAndRepairOfTheSite&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8612baf1_002Df314_002D4bc0_002Db830_002D32c656f2f1d3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddToFavorites #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\git2\DemoFramewrok\DemoTestFramework\Selenium" Presentation="&amp;lt;Selenium&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8c69e2cc_002Dbf0a_002D4589_002D8435_002D301a6807a141/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckRangePrice #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.CheckRangePriceTests.CheckRangePrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=90ddd376_002Dda70_002D4408_002D816f_002Dd27bf02b9e88/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckSortMinPriceInINputPrice25ProcentFromMaxPrice #7" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=91fbbb0f_002D8349_002D4de7_002Da1f5_002D495bac729774/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PositiveLoginUser" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.LoginTests.PositiveLoginUser&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.SearchTests.CheckCountCardsProductInPage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.CheckNameSectionPageTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckVisibleItemCardAfterAgeVerification&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.ChekBlockPromoProduct&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.ChekSortGoodsProduct&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.SearchTests.CheckSearchManufactureName&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.CheckRangePriceTests.CheckRangePrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=99b8a67a_002D6049_002D4956_002Daf1e_002D3bd0d8c1c73b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckRangePrice #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.CheckRangePriceTests.CheckRangePrice&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckRangePrice&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.ChecSortRaitingForInput&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9b58c1a9_002D9d5b_002D4d73_002D981f_002Dd85eeab68faf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckH1SectionOfTheSite #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.CheckNameSectionPageTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.LogoTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=aa139ee0_002D105a_002D4a6d_002D9510_002D32eb1e87e664/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddToFavorites" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.AddToFavorites&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bd778517_002D9bb2_002D4b9f_002D9968_002D64834f769ec7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddToFavorites #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.AddToFavorites&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bd77e4ca_002De5c6_002D400b_002Dad13_002D4e19e25a291c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckSortPriceDown #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortPriceDown&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.AddToFavorites&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c31dcbda_002D9ecc_002D47b1_002D95ec_002D444fb7809a30/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckSortMinPriceInINputPrice25ProcentFromMaxPrice #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cc56a2e5_002D735e_002D4e4e_002D8368_002Dd575da935e58/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckSortMinPriceInINputPrice25ProcentFromMaxPrice #11" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d2ed5bcb_002D14da_002D4f6a_002D8fcc_002Dadb38f0379f1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckSortMinPriceInINputPrice25ProcentFromMaxPrice" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dac0eb48_002Df20d_002D4338_002Da11d_002D121afc371db7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="NegativeLoginShrotPassword" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.LoginTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.SearchTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e9728183_002Ded1e_002D45c0_002Db946_002D94023f69b873/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckRangePrice #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.CheckRangePriceTests.CheckRangePrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f3020a4b_002D87df_002D47ff_002D9306_002D8fc4d08b110e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckSortMinPriceInINputPrice25ProcentFromMaxPrice #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fa207045_002Db5b3_002D4e15_002Da21f_002D5281fe684e19/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckSortPriceDown" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::98CBAEC0-2EEE-48B9-B7DA-EB0A861803B4::net6.0::Selenium.TestForTests.CheckSortPriceDown&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

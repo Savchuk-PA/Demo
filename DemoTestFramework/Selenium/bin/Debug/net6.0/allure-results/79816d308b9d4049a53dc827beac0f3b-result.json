@@ -1,0 +1,123 @@
+{
+  "uuid": "9d923bf3-d011-443d-a852-a3100871b400-tr-0-1023",
+  "historyId": "Selenium.LoginTests.NegativeLoginShrotPassword",
+  "fullName": "Selenium.LoginTests.NegativeLoginShrotPassword",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "NegativeLoginShrotPassword"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    },
+    {
+      "name": "tag",
+      "value": "Вход под пользователем с коротким паролем. Негативный тест"
+    }
+  ],
+  "links": [],
+  "name": "NegativeLoginShrotPassword",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "NegativeLoginShrotPassword"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "NegativeLoginShrotPassword",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Клик на кнопку Вход",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809539533,
+          "stop": 1667809539635
+        },
+        {
+          "name": "Заполнение формы авторизации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "+79061177915"
+            },
+            {
+              "name": "String",
+              "value": "aaa7"
+            }
+          ],
+          "start": 1667809539637,
+          "stop": 1667809539815
+        },
+        {
+          "name": "Получение информации об ошибке ввода пароля",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809539816,
+          "stop": 1667809539841
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "cb94a5059d754944bfae05411f9a0161-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667809538224,
+      "stop": 1667809539843
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667809538224,
+  "stop": 1667809539843
+}

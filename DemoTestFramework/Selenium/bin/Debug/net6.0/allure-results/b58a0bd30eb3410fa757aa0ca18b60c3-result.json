@@ -1,0 +1,84 @@
+{
+  "uuid": "ffc4aeb3-959b-4b33-9260-92ff082189bb-tr-0-1001",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionPetSuppliesOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionPetSuppliesOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionPetSuppliesOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Зоотовары"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionPetSuppliesOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionPetSuppliesOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionPetSuppliesOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667257352628,
+          "stop": 1667257355164
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "594c971997a5473b8b51902085ebae16-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667257349197,
+      "stop": 1667257355175
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667257349196,
+  "stop": 1667257355177
+}

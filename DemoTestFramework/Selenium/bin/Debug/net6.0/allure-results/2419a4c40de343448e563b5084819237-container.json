@@ -1,0 +1,76 @@
+{
+  "uuid": "cf36d85d-e707-458a-bc2d-d0cc1e570e03-tc-0-1028",
+  "name": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "children": [
+    "099fa404-4eec-49a8-b7be-37c75cbc345b-tr-0-1029"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667654240972,
+      "stop": 1667654240972
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667654240972,
+      "stop": 1667654240972
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667654240972,
+      "stop": 1667654240972
+    },
+    {
+      "name": "OneTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667654240972,
+      "stop": 1667654240972
+    }
+  ],
+  "links": [],
+  "start": 1667654235920,
+  "stop": 1667654240973
+}

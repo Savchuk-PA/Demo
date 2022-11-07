@@ -1,0 +1,102 @@
+{
+  "uuid": "9cd96ac5-697d-4c1b-ba84-40c29e33c3b4-tr-0-1003",
+  "historyId": "Selenium.LoginTests.ChekElemntAuthFormIsVisible",
+  "fullName": "Selenium.LoginTests.ChekElemntAuthFormIsVisible",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "ChekElemntAuthFormIsVisible"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка присутствия элементов в форме авторизации"
+    }
+  ],
+  "links": [],
+  "name": "ChekElemntAuthFormIsVisible",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Selenium.LoginTests.ChekElemntAuthFormIsVisible() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 78\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ChekElemntAuthFormIsVisible",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Selenium.LoginTests.ChekElemntAuthFormIsVisible() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 78\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Клик на кнопку Вход",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667216900187,
+          "stop": 1667216900344
+        },
+        {
+          "name": "Получение информации о видимости элементов",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667216900344,
+          "stop": 1667216900361
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5f0c89ad51ea43dfa1e34ce9fe836131-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667216878839,
+      "stop": 1667216900401
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667216878839,
+  "stop": 1667216900403
+}

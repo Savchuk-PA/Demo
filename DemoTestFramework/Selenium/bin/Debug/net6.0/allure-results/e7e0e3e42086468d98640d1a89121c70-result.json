@@ -1,0 +1,84 @@
+{
+  "uuid": "f63ea9ff-f13f-486c-afa1-c35db86eb542-tr-0-1008",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionHouseholdsProductsOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionHouseholdsProductsOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionHouseholdsProductsOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Товары для дома"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionHouseholdsProductsOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionHouseholdsProductsOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionHouseholdsProductsOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667654186356,
+          "stop": 1667654188754
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "582f7f48947847529d54a3589897cb6f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667654184807,
+      "stop": 1667654188756
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667654184807,
+  "stop": 1667654188756
+}

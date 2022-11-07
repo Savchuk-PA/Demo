@@ -1,0 +1,84 @@
+{
+  "uuid": "7c6f39b0-d1ab-4a77-b916-bf8a4c46c78b-tr-0-1003",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionClothingOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionClothingOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionClothingOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Одежда"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionClothingOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionClothingOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionClothingOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667229609634,
+          "stop": 1667229611917
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e44d8fe3d4804cbaba14b3d1ea3f122b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667229608159,
+      "stop": 1667229611918
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667229608159,
+  "stop": 1667229611919
+}

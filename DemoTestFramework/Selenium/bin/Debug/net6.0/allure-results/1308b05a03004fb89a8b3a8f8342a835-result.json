@@ -1,0 +1,99 @@
+{
+  "uuid": "9ef46fa8-c4f2-4d7c-a4ff-cfe8f72b1041-tr-0-1001",
+  "historyId": "Selenium.LoginTests.ChekElemntAuthFormIsVisible",
+  "fullName": "Selenium.LoginTests.ChekElemntAuthFormIsVisible",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "ChekElemntAuthFormIsVisible"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка присутствия элементов в форме авторизации"
+    }
+  ],
+  "links": [],
+  "name": "ChekElemntAuthFormIsVisible",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ChekElemntAuthFormIsVisible"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ChekElemntAuthFormIsVisible",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Клик на кнопку Вход",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667215442122,
+          "stop": 1667215442232
+        },
+        {
+          "name": "Получение информации о видимости элементов",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667215442232,
+          "stop": 1667215442460
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7b0e4b6fbc6844ee9bf2b6459749a9ae-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667215439248,
+      "stop": 1667215444904
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667215439248,
+  "stop": 1667215444907
+}

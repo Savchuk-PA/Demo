@@ -1,0 +1,84 @@
+{
+  "uuid": "7330bc40-e814-42be-beb8-c41461fae5ff-tr-0-1001",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionBeautyOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionBeautyOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionBeautyOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Красота"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionBeautyOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionBeautyOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionBeautyOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667231686501,
+          "stop": 1667231689255
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bbd276d014d04da38b93e13a13f2280e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667231683196,
+      "stop": 1667231689267
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667231683196,
+  "stop": 1667231689269
+}

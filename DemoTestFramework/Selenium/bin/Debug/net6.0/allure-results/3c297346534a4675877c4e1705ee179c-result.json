@@ -1,0 +1,138 @@
+{
+  "uuid": "b9992f0c-c865-4df2-8ecc-f5bb134665bd-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckSortPriceDown",
+  "fullName": "Selenium.TestForTests.CheckSortPriceDown",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSortPriceDown"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка сортировки по убыванию"
+    }
+  ],
+  "links": [],
+  "name": "CheckSortPriceDown",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Selenium.TestForTests.CheckSortPriceDown() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 133\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSortPriceDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Selenium.TestForTests.CheckSortPriceDown() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 133\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Обувь",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667679949319,
+          "stop": 1667679950449
+        },
+        {
+          "name": "Выбор критерия сортировки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Клик на кнопку сортровки товара",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667679950450,
+              "stop": 1667679953214
+            },
+            {
+              "name": "Выбор парметра сортировки: Подешевле",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667679953215,
+              "stop": 1667679953329
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Подороже"
+            }
+          ],
+          "start": 1667679950449,
+          "stop": 1667679958335
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "86f45682a6d143a4ac81924c6c9d57a9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667679947076,
+      "stop": 1667679958409
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667679947076,
+  "stop": 1667679958411
+}

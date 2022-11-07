@@ -1,0 +1,89 @@
+{
+  "uuid": "886ac437-6810-41ae-9d07-2e8b0090698e-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "fullName": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckConfirmBlock18ageInTheAdultPage"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка отображения блока с подтверждением возраста 18+"
+    }
+  ],
+  "links": [],
+  "name": "CheckConfirmBlock18ageInTheAdultPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds\r\n  ----> OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=106.0.5249.119)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsVisble(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 44\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickMore_100663429_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 127\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickMore_100663429_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickMore_100663429_w_0(Object[] )\r\n   at Selenium.PageObjects.BasePage.ClickMore() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 168\r\n   at Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 43\r\n--NoSuchWindowException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckConfirmBlock18ageInTheAdultPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds\r\n  ----> OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=106.0.5249.119)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsVisble(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 44\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickMore_100663429_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 127\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickMore_100663429_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickMore_100663429_w_0(Object[] )\r\n   at Selenium.PageObjects.BasePage.ClickMore() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 168\r\n   at Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 43\r\n--NoSuchWindowException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открытие доп раздела 'Ещё' в майн бар",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Timed out after 5 seconds",
+            "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsVisble(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 44\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickMore_100663429_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 127\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickMore_100663429_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667265306727,
+          "stop": 1667265311898
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a2a4ece4917c47f9bd45e7cce331a9b7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667265289291,
+      "stop": 1667265311909
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667265289291,
+  "stop": 1667265311912
+}

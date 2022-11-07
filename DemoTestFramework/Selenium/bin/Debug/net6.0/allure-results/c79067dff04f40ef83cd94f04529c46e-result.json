@@ -1,0 +1,104 @@
+{
+  "uuid": "60b8161a-22c0-400c-9e5e-453f8ad07661-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification",
+  "fullName": "Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckHideCardItemForVariantNotBlockAdultNotification"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка показа срытых товаров, после нажатия кнопки 18+ в блоке с возрастом"
+    }
+  ],
+  "links": [],
+  "name": "CheckHideCardItemForVariantNotBlockAdultNotification",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.InvalidSelectorException : Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.",
+    "trace": "   at OpenQA.Selenium.By.ClassName(String classNameToFind)\r\n   at SeleniumExtras.PageObjects.ByFactory.From(FindsByAttribute attribute)\r\n   at SeleniumExtras.PageObjects.FindsByAttribute.get_Finder()\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.CreateLocatorList(MemberInfo member)\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.Decorate(MemberInfo member, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator, IPageObjectMemberDecorator decorator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(ISearchContext driver, Object page)\r\n   at Selenium.PageObjects.BasePage..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 20\r\n   at Selenium.PageObjects.ProductsForAdultsPageObject..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ProductsForAdultsPageObject.cs:line 11\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 254\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_w_0(Object[] )\r\n   at Selenium.PageObjects.BasePage.ProductsForAdultsClickBtn() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 259\r\n   at Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 56"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckHideCardItemForVariantNotBlockAdultNotification",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.InvalidSelectorException : Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.",
+        "trace": "   at OpenQA.Selenium.By.ClassName(String classNameToFind)\r\n   at SeleniumExtras.PageObjects.ByFactory.From(FindsByAttribute attribute)\r\n   at SeleniumExtras.PageObjects.FindsByAttribute.get_Finder()\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.CreateLocatorList(MemberInfo member)\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.Decorate(MemberInfo member, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator, IPageObjectMemberDecorator decorator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(ISearchContext driver, Object page)\r\n   at Selenium.PageObjects.BasePage..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 20\r\n   at Selenium.PageObjects.ProductsForAdultsPageObject..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ProductsForAdultsPageObject.cs:line 11\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 254\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_w_0(Object[] )\r\n   at Selenium.PageObjects.BasePage.ProductsForAdultsClickBtn() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 259\r\n   at Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 56"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открытие доп раздела 'Ещё' в майн бар",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667268194694,
+          "stop": 1667268196677
+        },
+        {
+          "name": "Переход на станицу Товары для взрослых",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.",
+            "trace": "   at OpenQA.Selenium.By.ClassName(String classNameToFind)\r\n   at SeleniumExtras.PageObjects.ByFactory.From(FindsByAttribute attribute)\r\n   at SeleniumExtras.PageObjects.FindsByAttribute.get_Finder()\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.CreateLocatorList(MemberInfo member)\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.Decorate(MemberInfo member, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator, IPageObjectMemberDecorator decorator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(ISearchContext driver, Object page)\r\n   at Selenium.PageObjects.BasePage..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 20\r\n   at Selenium.PageObjects.ProductsForAdultsPageObject..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ProductsForAdultsPageObject.cs:line 11\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 254\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667268196677,
+          "stop": 1667268197318
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2e6242261d674696b8c957db9a331c9e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667268193385,
+      "stop": 1667268197327
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667268193385,
+  "stop": 1667268197330
+}

@@ -1,0 +1,99 @@
+{
+  "uuid": "24f6f95a-70eb-4bcf-9160-5804aaa31c70-tr-0-1001",
+  "historyId": "Selenium.TestForTests.AddToFavorites",
+  "fullName": "Selenium.TestForTests.AddToFavorites",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddToFavorites"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Добавление в избраное"
+    }
+  ],
+  "links": [],
+  "name": "AddToFavorites",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "AddToFavorites"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "AddToFavorites",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Обувь",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667744930473,
+          "stop": 1667744931687
+        },
+        {
+          "name": "Переход в раздел избраное",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667744941851,
+          "stop": 1667744941987
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "563faab09a824baeb65d191b6fdf03ae-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667744928449,
+      "stop": 1667744947501
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667744928449,
+  "stop": 1667744947504
+}

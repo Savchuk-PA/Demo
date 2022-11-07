@@ -1,0 +1,84 @@
+{
+  "uuid": "53d16e14-2830-4716-a5cb-63532eb11a4a-tr-0-1001",
+  "historyId": "Selenium.LoginTests.NegativeLoginShrotPassword2",
+  "fullName": "Selenium.LoginTests.NegativeLoginShrotPassword2",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "NegativeLoginShrotPassword2"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    },
+    {
+      "name": "tag",
+      "value": "Вход под пользователем с коротким паролем. Негативный тест"
+    }
+  ],
+  "links": [],
+  "name": "NegativeLoginShrotPassword2",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "NegativeLoginShrotPassword2"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "NegativeLoginShrotPassword2",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Клик на кнопку Вход",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1666790793649,
+          "stop": 1666790793771
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f8216efee050458e9b7bf27f9a3b802b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666790791328,
+      "stop": 1666790796562
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666790791327,
+  "stop": 1666790796564
+}

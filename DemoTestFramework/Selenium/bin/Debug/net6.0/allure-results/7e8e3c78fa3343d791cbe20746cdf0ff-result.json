@@ -1,0 +1,72 @@
+{
+  "uuid": "21816eea-7629-4c94-832a-0185b4b98b2d-tr-0-1001",
+  "historyId": "Selenium.LoginTests.NegativeLoginShrotPassword",
+  "fullName": "Selenium.LoginTests.NegativeLoginShrotPassword",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "NegativeLoginShrotPassword"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    },
+    {
+      "name": "tag",
+      "value": "Вход под пользователем с коротким паролем. Негативный тест"
+    }
+  ],
+  "links": [],
+  "name": "NegativeLoginShrotPassword",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ObjectDisposedException : Cannot access a disposed object.\r\nObject name: 'System.Net.Http.HttpClient'.",
+    "trace": "   at System.Net.Http.HttpClient.CheckDisposed()\r\n   at System.Net.Http.HttpClient.CheckRequestBeforeSend(HttpRequestMessage request)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at Selenium.LoginTests.SetUp() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 22"
+  },
+  "stage": "finished",
+  "description": "\nSetUp SetUp method failed\n",
+  "steps": [
+    {
+      "name": "NegativeLoginShrotPassword skipped because of OneTimeSetup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ObjectDisposedException : Cannot access a disposed object.\r\nObject name: 'System.Net.Http.HttpClient'.",
+        "trace": "   at System.Net.Http.HttpClient.CheckDisposed()\r\n   at System.Net.Http.HttpClient.CheckRequestBeforeSend(HttpRequestMessage request)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at Selenium.LoginTests.SetUp() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 22"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e717f443247244198c583a11079a4f7e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667215918511,
+      "stop": 1667215918538
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667215918511,
+  "stop": 1667215918538
+}

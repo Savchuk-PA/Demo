@@ -1,0 +1,83 @@
+{
+  "uuid": "782e1fb4-cdac-41d3-aa96-8691dbcf47da-tr-0-1001",
+  "historyId": "Selenium.LoginTests.NegativeLoginShrotPassword",
+  "fullName": "Selenium.LoginTests.NegativeLoginShrotPassword",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "NegativeLoginShrotPassword"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    }
+  ],
+  "links": [],
+  "name": "NegativeLoginShrotPassword",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at Selenium.LoginTests.NegativeLoginShrotPassword() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 47"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "NegativeLoginShrotPassword",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Selenium.LoginTests.NegativeLoginShrotPassword() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 47"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Клик на кнопку Вход",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1666782988045,
+          "stop": 1666782988158
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6b0c5af837e24360a86cb20aabf9143b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666782985798,
+      "stop": 1666782990597
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666782985797,
+  "stop": 1666782990599
+}

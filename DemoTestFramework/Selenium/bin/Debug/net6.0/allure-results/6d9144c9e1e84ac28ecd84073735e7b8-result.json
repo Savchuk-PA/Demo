@@ -1,0 +1,89 @@
+{
+  "uuid": "49d6cd4b-3375-4ab6-a195-89d280c656e7-tr-0-1002",
+  "historyId": "Selenium.SearchTests.CheckCountCardsProductInPage",
+  "fullName": "Selenium.SearchTests.CheckCountCardsProductInPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCountCardsProductInPage"
+    },
+    {
+      "name": "testClass",
+      "value": "SearchTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка количества отображаемых карточек товара на странице, по поиску товара"
+    }
+  ],
+  "links": [],
+  "name": "CheckCountCardsProductInPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckCountCardsProductInPage"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckCountCardsProductInPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Ввод в строку поиска",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Часы"
+            }
+          ],
+          "start": 1667217200633,
+          "stop": 1667217201887
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "943e4c756fd142f1b249c427560c6c35-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667217198472,
+      "stop": 1667217201914
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667217198472,
+  "stop": 1667217201916
+}

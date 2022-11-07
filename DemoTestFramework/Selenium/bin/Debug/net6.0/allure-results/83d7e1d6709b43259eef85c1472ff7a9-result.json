@@ -1,0 +1,99 @@
+{
+  "uuid": "eb9bd124-96fb-449a-9e0b-35d9b3b00d6f-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification",
+  "fullName": "Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckHideCardItemForVariantNotBlockAdultNotification"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка сокрытия картинки товаров 18+"
+    }
+  ],
+  "links": [],
+  "name": "CheckHideCardItemForVariantNotBlockAdultNotification",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckHideCardItemForVariantNotBlockAdultNotification"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckHideCardItemForVariantNotBlockAdultNotification",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открытие доп раздела 'Ещё' в майн бар",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667272799707,
+          "stop": 1667272800415
+        },
+        {
+          "name": "Переход на станицу Товары для взрослых",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667272800416,
+          "stop": 1667272801022
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6d01c6c9e8ed4a26b2ee66be16abe65c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667272797517,
+      "stop": 1667272803814
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667272797517,
+  "stop": 1667272803817
+}

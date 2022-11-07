@@ -1,0 +1,9 @@
+{
+  "allure": {
+    "title": "5994A3F7-AF84-46AD-9393-000BB45553CC",
+    "directory": "C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\Allure-Results",
+    "links": [
+      "https://example.org/{issue}",
+      "https://example.org/{tms}"
+    ]
+  }

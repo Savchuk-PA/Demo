@@ -1,0 +1,84 @@
+{
+  "uuid": "1a07b9a1-f558-4e57-9d76-707e99deb0e2-tr-0-1001",
+  "historyId": "Selenium.KazanExpressTests.CheckH1SectionOfTheSite",
+  "fullName": "Selenium.KazanExpressTests.CheckH1SectionOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckH1SectionOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "KazanExpressTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка зназваний разделов с продукцией"
+    }
+  ],
+  "links": [],
+  "name": "CheckH1SectionOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckH1SectionOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckH1SectionOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел эелектроника",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667075730360,
+          "stop": 1667075736011
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e17065067fb64f47839517fa6b4a56bb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667075727954,
+      "stop": 1667075738568
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667075727953,
+  "stop": 1667075738570
+}

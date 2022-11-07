@@ -1,0 +1,90 @@
+{
+  "uuid": "47ab1a4a-67de-4906-a2a9-b538854d0533-tr-0-1001",
+  "historyId": "Selenium.KazanExpressTests.LoginUser",
+  "fullName": "Selenium.KazanExpressTests.LoginUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginUser"
+    },
+    {
+      "name": "testClass",
+      "value": "KazanExpressTests"
+    },
+    {
+      "name": "tag",
+      "value": "Вход под пользавтелем"
+    }
+  ],
+  "links": [],
+  "name": "LoginUser",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds\r\n  ----> OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=106.0.5249.119)\r\nTearDown : OpenQA.Selenium.WebDriverException : chrome not reachable\n  (Session info: chrome=106.0.5249.119)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsClickable(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 47\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_SignIn_100663336_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 31\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_SignIn_100663336_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_SignIn_100663336_w_0(Object[] )\r\n   at Selenium.PageObjects.MainMenuPageObject.SignIn() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 49\r\n   at Selenium.KazanExpressTests.LoginUser() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\KazanExpressTests.cs:line 33\r\n--NoSuchWindowException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Close()\r\n   at Selenium.KazanExpressTests.TearDown() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\KazanExpressTests.cs:line 65"
+  },
+  "stage": "finished",
+  "description": "\nTearDown TearDown method failed\n",
+  "steps": [
+    {
+      "name": "LoginUser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds\r\n  ----> OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=106.0.5249.119)\r\nTearDown : OpenQA.Selenium.WebDriverException : chrome not reachable\n  (Session info: chrome=106.0.5249.119)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsClickable(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 47\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_SignIn_100663336_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 31\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_SignIn_100663336_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_SignIn_100663336_w_0(Object[] )\r\n   at Selenium.PageObjects.MainMenuPageObject.SignIn() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 49\r\n   at Selenium.KazanExpressTests.LoginUser() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\KazanExpressTests.cs:line 33\r\n--NoSuchWindowException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Close()\r\n   at Selenium.KazanExpressTests.TearDown() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\KazanExpressTests.cs:line 65"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Нажатие кнопки войти на главной странице",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Timed out after 5 seconds",
+            "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsClickable(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 47\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_SignIn_100663336_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 31\r\n   at Selenium.PageObjects.MainMenuPageObject.__a$_around_SignIn_100663336_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1666695099770,
+          "stop": 1666695104912
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "361054e812fc4da795323ce2dcb35f53-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666695084488,
+      "stop": 1666695107288
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666695084487,
+  "stop": 1666695107290
+}

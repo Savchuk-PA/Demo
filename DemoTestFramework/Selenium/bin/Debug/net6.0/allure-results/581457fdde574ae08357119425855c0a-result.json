@@ -1,0 +1,87 @@
+{
+  "uuid": "f8a4215c-be77-4d33-a007-68579b9d2566-tr-0-1013",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionProductsForAdultsOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionProductsForAdultsOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionProductsForAdultsOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Товары для взрослых"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionProductsForAdultsOfTheSite",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.InvalidSelectorException : Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.",
+    "trace": "   at OpenQA.Selenium.By.ClassName(String classNameToFind)\r\n   at SeleniumExtras.PageObjects.FindsByAttribute.get_Finder()\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.CreateLocatorList(MemberInfo member)\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.Decorate(MemberInfo member, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator, IPageObjectMemberDecorator decorator)\r\n   at Selenium.PageObjects.BasePage..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 20\r\n   at Selenium.PageObjects.ProductsForAdultsPageObject..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ProductsForAdultsPageObject.cs:line 11\r\n   at Selenium.CheckNameSectionPageTests.CheckSectionProductsForAdultsOfTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPageTests.cs:line 211"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionProductsForAdultsOfTheSite",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.InvalidSelectorException : Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.",
+        "trace": "   at OpenQA.Selenium.By.ClassName(String classNameToFind)\r\n   at SeleniumExtras.PageObjects.FindsByAttribute.get_Finder()\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.CreateLocatorList(MemberInfo member)\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.Decorate(MemberInfo member, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator, IPageObjectMemberDecorator decorator)\r\n   at Selenium.PageObjects.BasePage..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 20\r\n   at Selenium.PageObjects.ProductsForAdultsPageObject..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ProductsForAdultsPageObject.cs:line 11\r\n   at Selenium.CheckNameSectionPageTests.CheckSectionProductsForAdultsOfTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPageTests.cs:line 211"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667271134354,
+          "stop": 1667271136820
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5d842e42f421477283e643cca934034a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667271132471,
+      "stop": 1667271136848
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667271132471,
+  "stop": 1667271136848
+}

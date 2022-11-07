@@ -1,0 +1,71 @@
+{
+  "uuid": "b8e431bb-34e9-4551-9c7a-ee37c788be72-tr-0-1001",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionSportOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionSportOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionSportOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Товары для спорта и отдыха"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionSportOfTheSite",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span data-v-45337954=\"\" class=\"title\">...</span> is not clickable at point (348, 624). Other element would receive the click: <a data-v-45337954=\"\" href=\"/category/Sport-i-otdykh-10015\" class=\"parent-category-link\" ui-link=\"\">...</a>\n  (Session info: chrome=106.0.5249.119)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\r\n   at Selenium.CheckNameSectionPageTests.CheckSectionSportOfTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPageTests.cs:line 223"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionSportOfTheSite",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span data-v-45337954=\"\" class=\"title\">...</span> is not clickable at point (348, 624). Other element would receive the click: <a data-v-45337954=\"\" href=\"/category/Sport-i-otdykh-10015\" class=\"parent-category-link\" ui-link=\"\">...</a>\n  (Session info: chrome=106.0.5249.119)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\r\n   at Selenium.CheckNameSectionPageTests.CheckSectionSportOfTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPageTests.cs:line 223"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c82ac06c8c754b128b09936b576d5406-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667254623947,
+      "stop": 1667254628364
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667254623947,
+  "stop": 1667254628366
+}

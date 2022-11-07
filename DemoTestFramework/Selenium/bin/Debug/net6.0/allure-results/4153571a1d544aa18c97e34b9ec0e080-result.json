@@ -1,0 +1,116 @@
+{
+  "uuid": "15cb02e4-30a5-4d16-97e1-0f5d3594fd7a-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice",
+  "fullName": "Selenium.TestForTests.CheckSortMinPriceInINputPrice25ProcentFromMaxPrice",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSortMinPriceInINputPrice25ProcentFromMaxPrice"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    }
+  ],
+  "links": [],
+  "name": "CheckSortMinPriceInINputPrice25ProcentFromMaxPrice",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSortMinPriceInINputPrice25ProcentFromMaxPrice"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSortMinPriceInINputPrice25ProcentFromMaxPrice",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Выбор критерия сортировки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Клик на кнопку сортровки товара",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667669910663,
+              "stop": 1667669913308
+            },
+            {
+              "name": "Выбор парметра сортировки: Подешевле",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667669913308,
+              "stop": 1667669913420
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Подешевле"
+            }
+          ],
+          "start": 1667669910663,
+          "stop": 1667669918424
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a68bdbcc883143fcb5fa738926f5e7d6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667669907072,
+      "stop": 1667669923592
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667669907072,
+  "stop": 1667669923594
+}

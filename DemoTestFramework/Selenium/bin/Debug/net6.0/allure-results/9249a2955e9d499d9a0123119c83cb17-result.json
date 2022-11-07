@@ -1,0 +1,108 @@
+{
+  "uuid": "d7eff7d7-0c3f-4c91-ac8f-23bf55c4c5fa-tr-0-1001",
+  "historyId": "Selenium.KazanExpressTests.LoginUser",
+  "fullName": "Selenium.KazanExpressTests.LoginUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginUser"
+    },
+    {
+      "name": "testClass",
+      "value": "KazanExpressTests"
+    },
+    {
+      "name": "tag",
+      "value": "Вход под пользавтелем"
+    }
+  ],
+  "links": [],
+  "name": "LoginUser",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LoginUser"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LoginUser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Нажатие кнопки войти на главной странице",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1666466298001,
+          "stop": 1666466298113
+        },
+        {
+          "name": "Заполнение формы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "+79061177915"
+            },
+            {
+              "name": "String",
+              "value": "123456aA"
+            }
+          ],
+          "start": 1666466298114,
+          "stop": 1666466298292
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0a0c07d1a80c455884d4c49d28d4228a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666466290799,
+      "stop": 1666466305740
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666466290799,
+  "stop": 1666466305743
+}

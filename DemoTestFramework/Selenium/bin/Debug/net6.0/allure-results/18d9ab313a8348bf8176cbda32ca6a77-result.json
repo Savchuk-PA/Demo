@@ -1,0 +1,141 @@
+{
+  "uuid": "a5afa137-caab-4f4c-aac7-259cd3cb56a3-tr-0-1001",
+  "historyId": "Selenium.KazanExpressTests.LoginUser",
+  "fullName": "Selenium.KazanExpressTests.LoginUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginUser"
+    },
+    {
+      "name": "testClass",
+      "value": "KazanExpressTests"
+    },
+    {
+      "name": "tag",
+      "value": "Вход под пользавтелем"
+    }
+  ],
+  "links": [],
+  "name": "LoginUser",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Имя пользователя не совпадает\r\n  Expected is <Newtonsoft.Json.Linq.JValue>, actual is <System.String>\r\n  Values differ at index [0]\r\n  Extra:    < 'А', ... >",
+    "trace": "   at Selenium.KazanExpressTests.LoginUser() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\KazanExpressTests.cs:line 38\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LoginUser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Имя пользователя не совпадает\r\n  Expected is <Newtonsoft.Json.Linq.JValue>, actual is <System.String>\r\n  Values differ at index [0]\r\n  Extra:    < 'А', ... >",
+        "trace": "   at Selenium.KazanExpressTests.LoginUser() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\KazanExpressTests.cs:line 38\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Нажатие кнопки войти на главной странице",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1666470130205,
+          "stop": 1666470130318
+        },
+        {
+          "name": "Заполнение формы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "+79061177915"
+            },
+            {
+              "name": "String",
+              "value": "123456aA"
+            }
+          ],
+          "start": 1666470130319,
+          "stop": 1666470130480
+        },
+        {
+          "name": "Обновление страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1666470135493,
+          "stop": 1666470135505
+        },
+        {
+          "name": "Получение имени пользователя",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1666470135505,
+          "stop": 1666470137377
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b0c25716da8e468e91f4ba7393be1bcf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666470123082,
+      "stop": 1666470139859
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666470123081,
+  "stop": 1666470139861
+}

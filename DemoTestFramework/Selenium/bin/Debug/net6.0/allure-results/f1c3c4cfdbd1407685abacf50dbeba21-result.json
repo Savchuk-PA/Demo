@@ -1,0 +1,72 @@
+{
+  "uuid": "5241fb3e-dc48-4334-9b4e-c1d733ac3fe3-tr-0-1004",
+  "historyId": "Selenium.CheckNameSectionPage.CheckSectionShoesOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPage.CheckSectionShoesOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionShoesOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPage"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Обувь"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionShoesOfTheSite",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : invalid session id\r\nTearDown : OpenQA.Selenium.WebDriverException : invalid session id",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at Selenium.CheckNameSectionPage.SetUp() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPage.cs:line 24\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Close()\r\n   at Selenium.CheckNameSectionPage.TearDown() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPage.cs:line 30"
+  },
+  "stage": "finished",
+  "description": "\nSetUp SetUp method failed\n\nTearDown TearDown method failed\n",
+  "steps": [
+    {
+      "name": "CheckSectionShoesOfTheSite skipped because of OneTimeSetup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : invalid session id\r\nTearDown : OpenQA.Selenium.WebDriverException : invalid session id",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at Selenium.CheckNameSectionPage.SetUp() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPage.cs:line 24\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Close()\r\n   at Selenium.CheckNameSectionPage.TearDown() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPage.cs:line 30"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6def0736f9354ac5b5a689301fc62f72-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667229445055,
+      "stop": 1667229445059
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667229445055,
+  "stop": 1667229445059
+}

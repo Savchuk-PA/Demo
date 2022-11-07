@@ -1,0 +1,84 @@
+{
+  "uuid": "a047dd9b-d09e-4f35-ae08-e573ea7a726b-tr-0-1001",
+  "historyId": "Selenium.KazanExpressTests.CheckH1SectionElectronicsTheSite",
+  "fullName": "Selenium.KazanExpressTests.CheckH1SectionElectronicsTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckH1SectionElectronicsTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "KazanExpressTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Электроника"
+    }
+  ],
+  "links": [],
+  "name": "CheckH1SectionElectronicsTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckH1SectionElectronicsTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckH1SectionElectronicsTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел электроника",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667223056866,
+          "stop": 1667223062999
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f5fc95787c614049a8cd8b9d99844c81-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667223053815,
+      "stop": 1667223063130
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667223053815,
+  "stop": 1667223063135
+}

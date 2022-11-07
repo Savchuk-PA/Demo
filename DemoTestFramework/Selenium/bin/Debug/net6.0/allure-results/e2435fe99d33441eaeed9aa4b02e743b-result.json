@@ -1,0 +1,92 @@
+{
+  "uuid": "9254145d-5744-43fb-bb6f-b7114298ee35-tr-0-1001",
+  "historyId": "Selenium.SearchTests.CheckCountCardsProductInPage",
+  "fullName": "Selenium.SearchTests.CheckCountCardsProductInPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCountCardsProductInPage"
+    },
+    {
+      "name": "testClass",
+      "value": "SearchTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка количества отображаемых карточек товара на странице, по поиску товара"
+    }
+  ],
+  "links": [],
+  "name": "CheckCountCardsProductInPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Ожидалось 47, получено 48\r\n  Expected: 47\r\n  But was:  48\r\n",
+    "trace": "   at Selenium.SearchTests.CheckCountCardsProductInPage() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\SearchTests.cs:line 60\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckCountCardsProductInPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Ожидалось 47, получено 48\r\n  Expected: 47\r\n  But was:  48\r\n",
+        "trace": "   at Selenium.SearchTests.CheckCountCardsProductInPage() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\SearchTests.cs:line 60\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Ввод в строку поиска",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Часы"
+            }
+          ],
+          "start": 1666961625080,
+          "stop": 1666961626585
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f0309a2ee1a843b296b8b36bdf4450cf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666961622916,
+      "stop": 1666961629072
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666961622916,
+  "stop": 1666961629074
+}

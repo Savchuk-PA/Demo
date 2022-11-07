@@ -1,0 +1,99 @@
+{
+  "uuid": "49984bb5-f21c-41be-aa1d-3d0f2ede4bef-tr-0-1009",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionConstructionAndRepairOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionConstructionAndRepairOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionConstructionAndRepairOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Товары для строительства и ремонта"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionConstructionAndRepairOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionConstructionAndRepairOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionConstructionAndRepairOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Строительство и ремонт",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809486018,
+          "stop": 1667809486084
+        },
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809486084,
+          "stop": 1667809488690
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4ae356fdeb4d482b963c30c5ad5176f6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667809484652,
+      "stop": 1667809488691
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667809484652,
+  "stop": 1667809488691
+}

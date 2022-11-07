@@ -1,0 +1,84 @@
+{
+  "uuid": "6f3e5c29-c3c0-429e-bbe7-522643f908c8-tr-0-1007",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionHealthOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionHealthOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionHealthOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Здоровье"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionHealthOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionHealthOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionHealthOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667654173774,
+          "stop": 1667654176317
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "06995fdc887f48cf9382501c99e9a0ef-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667654172278,
+      "stop": 1667654176318
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667654172278,
+  "stop": 1667654176318
+}

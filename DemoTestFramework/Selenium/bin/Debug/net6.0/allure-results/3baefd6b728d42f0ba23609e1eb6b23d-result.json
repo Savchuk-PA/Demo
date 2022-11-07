@@ -1,0 +1,138 @@
+{
+  "uuid": "1fc827b4-f4e3-41d0-9db9-63f9f77bca24-tr-0-1001",
+  "historyId": "Selenium.LoginTests.PositiveLoginUser",
+  "fullName": "Selenium.LoginTests.PositiveLoginUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "PositiveLoginUser"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    },
+    {
+      "name": "tag",
+      "value": "Вход под пользавтелем с валидными данными"
+    }
+  ],
+  "links": [],
+  "name": "PositiveLoginUser",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "PositiveLoginUser"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "PositiveLoginUser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Клик на кнопку Вход",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667217009168,
+          "stop": 1667217009291
+        },
+        {
+          "name": "Заполнение формы авторизации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "+79061177915"
+            },
+            {
+              "name": "String",
+              "value": "123456aA"
+            }
+          ],
+          "start": 1667217009291,
+          "stop": 1667217010483
+        },
+        {
+          "name": "Обновление страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667217010483,
+          "stop": 1667217010489
+        },
+        {
+          "name": "Получение имени пользователя",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667217010489,
+          "stop": 1667217014375
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "304af70320044449aea2781ddf7948bb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667217006941,
+      "stop": 1667217016389
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667217006941,
+  "stop": 1667217016392
+}

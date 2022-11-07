@@ -1,0 +1,99 @@
+{
+  "uuid": "1efb4f37-db72-46f2-aa01-b6733e89da53-tr-0-1031",
+  "historyId": "Selenium.TestForTests.CheckHideCardItemForAdult",
+  "fullName": "Selenium.TestForTests.CheckHideCardItemForAdult",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckHideCardItemForAdult"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка сокрытия картинки товаров 18+"
+    }
+  ],
+  "links": [],
+  "name": "CheckHideCardItemForAdult",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckHideCardItemForAdult"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckHideCardItemForAdult",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открытие доп раздела 'Ещё' в майн бар",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809581213,
+          "stop": 1667809581393
+        },
+        {
+          "name": "Переход на станицу Товары для взрослых",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809581393,
+          "stop": 1667809582012
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3d9513cef80c4f0dbff2bb924d2c2179-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667809579848,
+      "stop": 1667809584483
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667809579848,
+  "stop": 1667809584483
+}

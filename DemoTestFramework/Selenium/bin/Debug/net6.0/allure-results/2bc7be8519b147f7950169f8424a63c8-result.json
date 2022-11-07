@@ -1,0 +1,89 @@
+{
+  "uuid": "5174b339-4534-471c-89e4-83b17c3de400-tr-0-1033",
+  "historyId": "Selenium.TestForTests.ChekSortGoodsProduct",
+  "fullName": "Selenium.TestForTests.ChekSortGoodsProduct",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "ChekSortGoodsProduct"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка сортировки"
+    }
+  ],
+  "links": [],
+  "name": "ChekSortGoodsProduct",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@id = 'category-3']\"}\n  (Session info: chrome=107.0.5304.88)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsClickable(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 49\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickShoesBtn_100663477_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 301\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickShoesBtn_100663477_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickShoesBtn_100663477_w_0(Object[] )\r\n   at Selenium.PageObjects.BasePage.ClickShoesBtn() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 29\r\n   at Selenium.TestForTests.ChekSortGoodsProduct() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 82\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ChekSortGoodsProduct",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@id = 'category-3']\"}\n  (Session info: chrome=107.0.5304.88)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsClickable(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 49\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickShoesBtn_100663477_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 301\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickShoesBtn_100663477_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickShoesBtn_100663477_w_0(Object[] )\r\n   at Selenium.PageObjects.BasePage.ClickShoesBtn() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 29\r\n   at Selenium.TestForTests.ChekSortGoodsProduct() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 82\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Обувь",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Timed out after 5 seconds",
+            "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsClickable(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 49\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickShoesBtn_100663477_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 301\r\n   at Selenium.PageObjects.BasePage.__a$_around_ClickShoesBtn_100663477_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809616436,
+          "stop": 1667809621587
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e1fbd6ed055e4354b0e1c8bb7a0990aa-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667809615233,
+      "stop": 1667809621588
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667809615233,
+  "stop": 1667809621588
+}

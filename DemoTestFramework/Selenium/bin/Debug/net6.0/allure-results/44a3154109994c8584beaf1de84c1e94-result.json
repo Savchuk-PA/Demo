@@ -1,0 +1,84 @@
+{
+  "uuid": "188692b6-b347-4af2-9d05-16573a9bf0f8-tr-0-1014",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionSportOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionSportOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionSportOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Товары для спорта и отдыха"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionSportOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionSportOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionSportOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667654202324,
+          "stop": 1667654204724
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a27262c246724a978d136ffecf547355-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667654200681,
+      "stop": 1667654204726
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667654200681,
+  "stop": 1667654204726
+}

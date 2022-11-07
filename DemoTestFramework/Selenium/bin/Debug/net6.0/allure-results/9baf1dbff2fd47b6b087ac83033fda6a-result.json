@@ -1,0 +1,135 @@
+{
+  "uuid": "0f514cae-e059-4ca5-bb75-e809f3a11078-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckSortPriceDown",
+  "fullName": "Selenium.TestForTests.CheckSortPriceDown",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSortPriceDown"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка сортировки по убыванию"
+    }
+  ],
+  "links": [],
+  "name": "CheckSortPriceDown",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSortPriceDown"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSortPriceDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Обувь",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667679852785,
+          "stop": 1667679853922
+        },
+        {
+          "name": "Выбор критерия сортировки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Клик на кнопку сортровки товара",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667679853923,
+              "stop": 1667679856352
+            },
+            {
+              "name": "Выбор парметра сортировки: Подешевле",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667679856352,
+              "stop": 1667679856468
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Подороже"
+            }
+          ],
+          "start": 1667679853923,
+          "stop": 1667679861468
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7561acaae8f64a2b9476490595b10e17-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667679850702,
+      "stop": 1667679861510
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667679850702,
+  "stop": 1667679861512
+}

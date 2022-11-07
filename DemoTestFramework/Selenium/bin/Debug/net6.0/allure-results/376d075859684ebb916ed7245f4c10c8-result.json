@@ -1,0 +1,67 @@
+{
+  "uuid": "686292f0-0d1d-47fc-ad43-f41da5ff4f6b-tr-0-1001",
+  "historyId": "Selenium.KazanExpressTests.LoginUser",
+  "fullName": "Selenium.KazanExpressTests.LoginUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginUser"
+    },
+    {
+      "name": "testClass",
+      "value": "KazanExpressTests"
+    }
+  ],
+  "links": [],
+  "name": "LoginUser",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Selenium.KazanExpressTests.LoginUser() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\KazanExpressTests.cs:line 37\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LoginUser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Selenium.KazanExpressTests.LoginUser() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\KazanExpressTests.cs:line 37\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bbac1f53098f41cf9829e7da3c5cc861-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666455965160,
+      "stop": 1666455980985
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666455965160,
+  "stop": 1666455980987
+}

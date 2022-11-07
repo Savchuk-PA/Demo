@@ -1,0 +1,84 @@
+{
+  "uuid": "254908b6-9b47-4578-88e5-2ae5914c9db8-tr-0-1016",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionHouseholdСhemicalsOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionHouseholdСhemicalsOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionHouseholdСhemicalsOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Бытовая химия и личная гигиена"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionHouseholdСhemicalsOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionHouseholdСhemicalsOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionHouseholdСhemicalsOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667258307196,
+          "stop": 1667258309601
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e18c4674286748ce87285daa3ae91bef-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667258305451,
+      "stop": 1667258309602
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667258305451,
+  "stop": 1667258309602
+}

@@ -1,0 +1,92 @@
+{
+  "uuid": "7812121f-241a-40cf-8094-50e02f8c5c5b-tr-0-1001",
+  "historyId": "Selenium.SearchTests.CheckSearchManufactureName",
+  "fullName": "Selenium.SearchTests.CheckSearchManufactureName",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSearchManufactureName"
+    },
+    {
+      "name": "testClass",
+      "value": "SearchTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поиск товара"
+    }
+  ],
+  "links": [],
+  "name": "CheckSearchManufactureName",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+    "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at Selenium.SearchTests.CheckSearchManufactureName() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\SearchTests.cs:line 34"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSearchManufactureName",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+        "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at Selenium.SearchTests.CheckSearchManufactureName() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\SearchTests.cs:line 34"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Ввод с строку поиска",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Xiaomi"
+            }
+          ],
+          "start": 1666958693820,
+          "stop": 1666958694514
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c575aeae480b4e4dbc3a59f95dab3c96-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666958691338,
+      "stop": 1666958696966
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666958691338,
+  "stop": 1666958696968
+}

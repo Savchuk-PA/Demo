@@ -1,0 +1,87 @@
+{
+  "uuid": "409d7b07-3e59-4c49-8cfb-cdb0b47d4828-tr-0-1001",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionGardenOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionGardenOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionGardenOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Книги"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionGardenOfTheSite",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Ожидалось Товары для дачи и садa, получено Товары для дачи и сада\r\n  String lengths are both 22. Strings differ at index 21.\r\n  Expected: \"Товары для дачи и садa\"\r\n  But was:  \"Товары для дачи и сада\"\r\n  --------------------------------^\r\n",
+    "trace": "   at Selenium.CheckNameSectionPageTests.CheckSectionGardenOfTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPageTests.cs:line 311\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionGardenOfTheSite",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Ожидалось Товары для дачи и садa, получено Товары для дачи и сада\r\n  String lengths are both 22. Strings differ at index 21.\r\n  Expected: \"Товары для дачи и садa\"\r\n  But was:  \"Товары для дачи и сада\"\r\n  --------------------------------^\r\n",
+        "trace": "   at Selenium.CheckNameSectionPageTests.CheckSectionGardenOfTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPageTests.cs:line 311\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667258166818,
+          "stop": 1667258169452
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e71b01b874aa45c8a16f129d664261f1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667258163747,
+      "stop": 1667258169496
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667258163747,
+  "stop": 1667258169498
+}

@@ -1,0 +1,92 @@
+{
+  "uuid": "a07a4ae7-543b-4ab0-9683-4d1a6fddc96f-tr-0-1001",
+  "historyId": "Selenium.SearchTests.CheckSearchManufactureName",
+  "fullName": "Selenium.SearchTests.CheckSearchManufactureName",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSearchManufactureName"
+    },
+    {
+      "name": "testClass",
+      "value": "SearchTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поиск товара"
+    }
+  ],
+  "links": [],
+  "name": "CheckSearchManufactureName",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.InvalidSelectorException : invalid selector: Unable to locate an element with the xpath expression //a[@data-test-id = 'item__product-card']] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[@data-test-id = 'item__product-card']]' is not a valid XPath expression.\n  (Session info: chrome=106.0.5249.119)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElements(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_1(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElements(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElements(By by)\r\n   at Selenium.SearchTests.CheckSearchManufactureName() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\SearchTests.cs:line 30"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSearchManufactureName",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.InvalidSelectorException : invalid selector: Unable to locate an element with the xpath expression //a[@data-test-id = 'item__product-card']] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[@data-test-id = 'item__product-card']]' is not a valid XPath expression.\n  (Session info: chrome=106.0.5249.119)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElements(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_1(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElements(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElements(By by)\r\n   at Selenium.SearchTests.CheckSearchManufactureName() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\SearchTests.cs:line 30"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Ввод с строку поиска",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Xiaomi"
+            }
+          ],
+          "start": 1666893420498,
+          "stop": 1666893420679
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fddef7ab32a340439e7311c32bd5fed1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666893417813,
+      "stop": 1666893428151
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666893417813,
+  "stop": 1666893428154
+}

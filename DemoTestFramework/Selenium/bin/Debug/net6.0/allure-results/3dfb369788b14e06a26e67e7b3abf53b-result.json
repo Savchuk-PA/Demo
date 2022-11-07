@@ -1,0 +1,87 @@
+{
+  "uuid": "1d70a472-d13f-4f1c-89ac-bbc88654fe3c-tr-0-1001",
+  "historyId": "Selenium.KazanExpressTests.CheckH1SectionElectronicsTheSite",
+  "fullName": "Selenium.KazanExpressTests.CheckH1SectionElectronicsTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckH1SectionElectronicsTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "KazanExpressTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Электроника"
+    }
+  ],
+  "links": [],
+  "name": "CheckH1SectionElectronicsTheSite",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Ожидалось asd, получено Электроника\r\n  Expected string length 3 but was 11. Strings differ at index 0.\r\n  Expected: \"asd\"\r\n  But was:  \"Электроника\"\r\n  -----------^\r\n",
+    "trace": "   at Selenium.KazanExpressTests.CheckH1SectionElectronicsTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\KazanExpressTests.cs:line 47\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckH1SectionElectronicsTheSite",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Ожидалось asd, получено Электроника\r\n  Expected string length 3 but was 11. Strings differ at index 0.\r\n  Expected: \"asd\"\r\n  But was:  \"Электроника\"\r\n  -----------^\r\n",
+        "trace": "   at Selenium.KazanExpressTests.CheckH1SectionElectronicsTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\KazanExpressTests.cs:line 47\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел электроника",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667225522165,
+          "stop": 1667225527783
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3c2d7c966dfa4e06a146a3b518db0ac3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667225519987,
+      "stop": 1667225530274
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667225519987,
+  "stop": 1667225530276
+}

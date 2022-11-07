@@ -1,0 +1,84 @@
+{
+  "uuid": "77e0ecd0-c954-46d3-bd3b-c10f4498ba9e-tr-0-1013",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionProductsForAdultsOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionProductsForAdultsOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionProductsForAdultsOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Товары для взрослых"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionProductsForAdultsOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionProductsForAdultsOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionProductsForAdultsOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809518862,
+          "stop": 1667809521250
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7f00a2c0a2f349de8da5c3ba92da1bd4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667809517152,
+      "stop": 1667809521251
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667809517152,
+  "stop": 1667809521251
+}

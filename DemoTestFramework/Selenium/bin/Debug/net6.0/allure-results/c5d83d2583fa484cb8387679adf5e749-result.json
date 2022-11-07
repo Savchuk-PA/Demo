@@ -1,0 +1,84 @@
+{
+  "uuid": "d5dd5052-4b41-46f4-a768-dd95c848ff4a-tr-0-1007",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionHealthOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionHealthOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionHealthOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Здоровье"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionHealthOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionHealthOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionHealthOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667271111637,
+          "stop": 1667271114200
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6eff1ed121164c9eb6fb65b46a8d5afc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667271109939,
+      "stop": 1667271114202
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667271109939,
+  "stop": 1667271114202
+}

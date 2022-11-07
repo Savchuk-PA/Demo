@@ -1,0 +1,99 @@
+{
+  "uuid": "473be2c0-97ab-4562-8d6a-e4d28fe314cc-tr-0-1005",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionAccessoriesOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionAccessoriesOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionAccessoriesOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Аксессуары"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionAccessoriesOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionAccessoriesOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionAccessoriesOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Аксессуары",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809455648,
+          "stop": 1667809455929
+        },
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809455929,
+          "stop": 1667809458257
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f2de4a3f726643dc979a298db86c9102-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667809454387,
+      "stop": 1667809458259
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667809454387,
+  "stop": 1667809458259
+}

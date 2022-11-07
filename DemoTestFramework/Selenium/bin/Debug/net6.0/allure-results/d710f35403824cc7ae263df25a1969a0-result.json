@@ -1,0 +1,84 @@
+{
+  "uuid": "0e2f365c-0b0c-4f76-b456-5e43a4007c5f-tr-0-1019",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionBookOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionBookOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionBookOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Книги"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionBookOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionBookOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionBookOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809474377,
+          "stop": 1667809476735
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0e9ecf50cbdd4a5a8d837b76aa026b3f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667809472418,
+      "stop": 1667809476737
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667809472418,
+  "stop": 1667809476737
+}

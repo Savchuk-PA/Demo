@@ -1,0 +1,84 @@
+{
+  "uuid": "63572715-a898-4ce5-b0a5-e9d35d536b65-tr-0-1001",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionAutoProductsOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionAutoProductsOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionAutoProductsOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Автотовары"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionAutoProductsOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionAutoProductsOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionAutoProductsOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667233589813,
+          "stop": 1667233592695
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1d24d4c5b282458eb96e0294e0782e8f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667233586804,
+      "stop": 1667233592706
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667233586804,
+  "stop": 1667233592710
+}

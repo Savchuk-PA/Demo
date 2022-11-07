@@ -1,0 +1,102 @@
+{
+  "uuid": "5db82d7e-7be2-431e-9c75-de62d759e5ad-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification",
+  "fullName": "Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckHideCardItemForVariantNotBlockAdultNotification"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка сокрытия картинки товаров 18+"
+    }
+  ],
+  "links": [],
+  "name": "CheckHideCardItemForVariantNotBlockAdultNotification",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 59\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckHideCardItemForVariantNotBlockAdultNotification",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 59\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открытие доп раздела 'Ещё' в майн бар",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667272741729,
+          "stop": 1667272742392
+        },
+        {
+          "name": "Переход на станицу Товары для взрослых",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667272742392,
+          "stop": 1667272743009
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fd3b9f6669984306aea79c59694a01e3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667272739108,
+      "stop": 1667272745452
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667272739108,
+  "stop": 1667272745454
+}

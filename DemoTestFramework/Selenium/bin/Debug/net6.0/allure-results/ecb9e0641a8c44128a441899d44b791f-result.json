@@ -1,0 +1,120 @@
+{
+  "uuid": "22ef9e6e-bd34-4bb3-8d1a-c57dcb296c0f-tr-0-1001",
+  "historyId": "Selenium.TestForTests.ChekSortGoodsProduct",
+  "fullName": "Selenium.TestForTests.ChekSortGoodsProduct",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "ChekSortGoodsProduct"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка сортировки"
+    }
+  ],
+  "links": [],
+  "name": "ChekSortGoodsProduct",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ChekSortGoodsProduct"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ChekSortGoodsProduct",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Выбор критерия сортировки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Клик на кнопку сортровки товара",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667486609707,
+              "stop": 1667486612013
+            },
+            {
+              "name": "Выбор парметра сортировки: Популярные",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667486612014,
+              "stop": 1667486612048
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Популярные"
+            }
+          ],
+          "start": 1667486609706,
+          "stop": 1667486617049
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d8edce23a58f45c781c39a18d5cad2db-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667486606506,
+      "stop": 1667486617054
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667486606505,
+  "stop": 1667486617057
+}

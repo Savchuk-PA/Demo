@@ -1,0 +1,84 @@
+{
+  "uuid": "02c32b85-09bf-4a2f-a0fa-eb9df73b7eb1-tr-0-1012",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionHobbyAndCreativityOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionHobbyAndCreativityOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionHobbyAndCreativityOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Товары для хобби и творчества"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionHobbyAndCreativityOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionHobbyAndCreativityOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionHobbyAndCreativityOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667271116146,
+          "stop": 1667271118767
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0f33526c72404a11bcacbb19b69d550f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667271114203,
+      "stop": 1667271118769
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667271114203,
+  "stop": 1667271118769
+}

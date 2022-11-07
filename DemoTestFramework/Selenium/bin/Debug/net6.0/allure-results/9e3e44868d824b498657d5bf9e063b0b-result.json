@@ -1,0 +1,87 @@
+{
+  "uuid": "a27763bb-e9b8-4f00-baeb-4e291e1cf184-tr-0-1001",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionSportOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionSportOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionSportOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Товары для спорта и отдыха"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionSportOfTheSite",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Ожидалось Товары для спорта и отдых, получено Товары для спорта и отдыха\r\n  Expected string length 25 but was 26. Strings differ at index 25.\r\n  Expected: \"Товары для спорта и отдых\"\r\n  But was:  \"Товары для спорта и отдыха\"\r\n  ------------------------------------^\r\n",
+    "trace": "   at Selenium.CheckNameSectionPageTests.CheckSectionSportOfTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPageTests.cs:line 227\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionSportOfTheSite",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Ожидалось Товары для спорта и отдых, получено Товары для спорта и отдыха\r\n  Expected string length 25 but was 26. Strings differ at index 25.\r\n  Expected: \"Товары для спорта и отдых\"\r\n  But was:  \"Товары для спорта и отдыха\"\r\n  ------------------------------------^\r\n",
+        "trace": "   at Selenium.CheckNameSectionPageTests.CheckSectionSportOfTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPageTests.cs:line 227\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667254774289,
+          "stop": 1667254776981
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "58526d3adef04dd6913baee7c5ae878d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667254770819,
+      "stop": 1667254777028
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667254770818,
+  "stop": 1667254777030
+}

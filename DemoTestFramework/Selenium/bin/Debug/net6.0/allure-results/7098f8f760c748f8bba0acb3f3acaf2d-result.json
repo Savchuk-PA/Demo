@@ -1,0 +1,71 @@
+{
+  "uuid": "9c29c0df-1e30-4fb2-a050-93426fda541f-tr-0-1001",
+  "historyId": "Selenium.TestForTests.LogoTest",
+  "fullName": "Selenium.TestForTests.LogoTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "LogoTest"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Клик на логотип возвращает на главную страницу"
+    }
+  ],
+  "links": [],
+  "name": "LogoTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Ожидалось https://kaanexpress.ru/, получено https://kazanexpress.ru/\r\n  Expected string length 23 but was 24. Strings differ at index 10.\r\n  Expected: \"https://kaanexpress.ru/\"\r\n  But was:  \"https://kazanexpress.ru/\"\r\n  ---------------------^\r\n",
+    "trace": "   at Selenium.TestForTests.LogoTest() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 35\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LogoTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Ожидалось https://kaanexpress.ru/, получено https://kazanexpress.ru/\r\n  Expected string length 23 but was 24. Strings differ at index 10.\r\n  Expected: \"https://kaanexpress.ru/\"\r\n  But was:  \"https://kazanexpress.ru/\"\r\n  ---------------------^\r\n",
+        "trace": "   at Selenium.TestForTests.LogoTest() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 35\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "298f111dc44e40609b689785634742c4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667262334052,
+      "stop": 1667262337455
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667262334052,
+  "stop": 1667262337457
+}

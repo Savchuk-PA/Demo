@@ -1,0 +1,87 @@
+{
+  "uuid": "d698f73d-e74e-4067-a7ce-96b54676f406-tr-0-1001",
+  "historyId": "Selenium.LoginTests.NegativeLoginShrotPassword",
+  "fullName": "Selenium.LoginTests.NegativeLoginShrotPassword",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "NegativeLoginShrotPassword"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    },
+    {
+      "name": "tag",
+      "value": "Вход под пользователем с коротким паролем. Негативный тест"
+    }
+  ],
+  "links": [],
+  "name": "NegativeLoginShrotPassword",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Ожидалась ошибка Минимум 8 символов, была получена ошибка Минимум 8 символов\r\n  Expected string length 4 but was 18. Strings differ at index 0.\r\n  Expected: \"test\"\r\n  But was:  \"Минимум 8 символов\"\r\n  -----------^\r\n",
+    "trace": "   at Selenium.LoginTests.NegativeLoginShrotPassword() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 55\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "NegativeLoginShrotPassword",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Ожидалась ошибка Минимум 8 символов, была получена ошибка Минимум 8 символов\r\n  Expected string length 4 but was 18. Strings differ at index 0.\r\n  Expected: \"test\"\r\n  But was:  \"Минимум 8 символов\"\r\n  -----------^\r\n",
+        "trace": "   at Selenium.LoginTests.NegativeLoginShrotPassword() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 55\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Клик на кнопку Вход",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1666789786649,
+          "stop": 1666789786761
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "56e7e187ec0e432d86acd7a95a1582a6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666789784504,
+      "stop": 1666789790418
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666789784504,
+  "stop": 1666789790421
+}

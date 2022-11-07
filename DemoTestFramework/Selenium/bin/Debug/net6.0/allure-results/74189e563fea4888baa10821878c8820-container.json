@@ -1,0 +1,76 @@
+{
+  "uuid": "67f9bbc7-d8e5-41c4-aee2-81c660d3ef27-tc-0-1000",
+  "name": "Selenium.CheckNameSectionPageTests.CheckSectionBookOfTheSite",
+  "children": [
+    "45101333-1d8e-4c0a-b57c-d1e8aa93e5be-tr-0-1019"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667271088400,
+      "stop": 1667271088400
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667271088400,
+      "stop": 1667271088400
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667271088400,
+      "stop": 1667271088400
+    },
+    {
+      "name": "OneTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667271088400,
+      "stop": 1667271088400
+    }
+  ],
+  "links": [],
+  "start": 1667271083831,
+  "stop": 1667271088401
+}

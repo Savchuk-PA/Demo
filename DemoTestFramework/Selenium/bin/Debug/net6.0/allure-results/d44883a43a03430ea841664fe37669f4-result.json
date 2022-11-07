@@ -1,0 +1,71 @@
+{
+  "uuid": "1df98711-0b77-4931-abf2-7ab5fb7ff17a-tr-0-1001",
+  "historyId": "Selenium.KazanExpressTests.LoginUser",
+  "fullName": "Selenium.KazanExpressTests.LoginUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginUser"
+    },
+    {
+      "name": "testClass",
+      "value": "KazanExpressTests"
+    },
+    {
+      "name": "tag",
+      "value": "Вход под пользавтелем"
+    }
+  ],
+  "links": [],
+  "name": "LoginUser",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.InvalidSelectorException : Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.",
+    "trace": "   at OpenQA.Selenium.By.ClassName(String classNameToFind)\r\n   at Selenium.PageObjects.MainMenuPageObject..ctor(IWebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 11\r\n   at Selenium.KazanExpressTests.LoginUser() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\KazanExpressTests.cs:line 31"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LoginUser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.InvalidSelectorException : Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.",
+        "trace": "   at OpenQA.Selenium.By.ClassName(String classNameToFind)\r\n   at Selenium.PageObjects.MainMenuPageObject..ctor(IWebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\MainMenuPageObject.cs:line 11\r\n   at Selenium.KazanExpressTests.LoginUser() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\KazanExpressTests.cs:line 31"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "64d9c2cc0a33487aa92239dc8debded5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666467613827,
+      "stop": 1666467624572
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666467613827,
+  "stop": 1666467624574
+}

@@ -1,0 +1,67 @@
+{
+  "uuid": "19815d8b-08c9-48d2-b711-06692ba35c2c-tr-0-1001",
+  "historyId": "Selenium.CheckNameSectionPageTests.TestMore",
+  "fullName": "Selenium.CheckNameSectionPageTests.TestMore",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMore"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    }
+  ],
+  "links": [],
+  "name": "TestMore",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@class = 'more']",
+    "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\r\n   at Selenium.CheckNameSectionPageTests.TestMore() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPageTests.cs:line 206"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestMore",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@class = 'more']",
+        "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\r\n   at Selenium.CheckNameSectionPageTests.TestMore() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPageTests.cs:line 206"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4c681b0db3e248a29b63c14dee08a07c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667252575890,
+      "stop": 1667252578101
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667252575889,
+  "stop": 1667252578103
+}

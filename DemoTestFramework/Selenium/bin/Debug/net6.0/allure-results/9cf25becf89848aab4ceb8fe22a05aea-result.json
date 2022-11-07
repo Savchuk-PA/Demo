@@ -1,0 +1,84 @@
+{
+  "uuid": "428e224f-13bc-47b2-93d8-1493a244388b-tr-0-1006",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionBeautyOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionBeautyOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionBeautyOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Красота"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionBeautyOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionBeautyOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionBeautyOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667271081191,
+          "stop": 1667271083828
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9b51e1a5349f451cab53b5c81091c3ae-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667271079443,
+      "stop": 1667271083829
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667271079443,
+  "stop": 1667271083829
+}

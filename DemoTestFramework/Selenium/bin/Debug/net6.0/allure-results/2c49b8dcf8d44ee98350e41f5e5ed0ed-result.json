@@ -1,0 +1,102 @@
+{
+  "uuid": "ac1c1f09-053c-4919-b0ce-ab871d760922-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification",
+  "fullName": "Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckHideCardItemForVariantNotBlockAdultNotification"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка сокрытия картинки товаров 18+"
+    }
+  ],
+  "links": [],
+  "name": "CheckHideCardItemForVariantNotBlockAdultNotification",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //a[@href='/product/Prolongator-sprej-i-300180?SG=1176992']",
+    "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.GetAttribute(String attributeName)\r\n   at Selenium.PageObjects.ProductsForAdultsPageObject.CheckHidenItemCard() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ProductsForAdultsPageObject.cs:line 25\r\n   at Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 58"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckHideCardItemForVariantNotBlockAdultNotification",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //a[@href='/product/Prolongator-sprej-i-300180?SG=1176992']",
+        "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.GetAttribute(String attributeName)\r\n   at Selenium.PageObjects.ProductsForAdultsPageObject.CheckHidenItemCard() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ProductsForAdultsPageObject.cs:line 25\r\n   at Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 58"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открытие доп раздела 'Ещё' в майн бар",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667272651121,
+          "stop": 1667272652318
+        },
+        {
+          "name": "Переход на станицу Товары для взрослых",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667272652318,
+          "stop": 1667272652966
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "984b31384d814e0595616e21657159ca-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667272648885,
+      "stop": 1667272653001
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667272648884,
+  "stop": 1667272653004
+}

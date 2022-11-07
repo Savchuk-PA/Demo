@@ -1,0 +1,84 @@
+{
+  "uuid": "df19ff42-70e3-447f-af41-45d563c4f0c1-tr-0-1004",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionShoesOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionShoesOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionShoesOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Обувь"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionShoesOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionShoesOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionShoesOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667229714904,
+          "stop": 1667229717365
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9397ad120c7148559131dd7b7f2c03de-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667229713490,
+      "stop": 1667229717366
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667229713490,
+  "stop": 1667229717366
+}

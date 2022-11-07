@@ -1,0 +1,99 @@
+{
+  "uuid": "0591fd82-881c-407e-9688-06dce24ad2a4-tr-0-1002",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionAppliancesOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionAppliancesOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionAppliancesOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Бытовая техника"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionAppliancesOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionAppliancesOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionAppliancesOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Бытовая техника",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667258259763,
+          "stop": 1667258264837
+        },
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667258264837,
+          "stop": 1667258264865
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "57b018294294493caf8af84e4239d9ca-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667258258301,
+      "stop": 1667258264866
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667258258301,
+  "stop": 1667258264866
+}

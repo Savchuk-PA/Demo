@@ -1,0 +1,64 @@
+{
+  "uuid": "9f2a5a04-54b0-4d80-87d2-82d4a31486c5-tr-0-1001",
+  "historyId": "Selenium.CheckNameSectionPageTests.TestMore",
+  "fullName": "Selenium.CheckNameSectionPageTests.TestMore",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMore"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    }
+  ],
+  "links": [],
+  "name": "TestMore",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestMore"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestMore",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "206c0daba01844afb8b467b322002fe1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667252744059,
+      "stop": 1667252747434
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667252744059,
+  "stop": 1667252747437
+}

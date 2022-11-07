@@ -1,0 +1,99 @@
+{
+  "uuid": "88e61f2f-c0c3-4f14-8035-62f9226c16bc-tr-0-1001",
+  "historyId": "Selenium.TestForTests.LogoNavigateTest",
+  "fullName": "Selenium.TestForTests.LogoNavigateTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "LogoNavigateTest"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Клик на логотип, логотип возвращает на главную страницу"
+    }
+  ],
+  "links": [],
+  "name": "LogoNavigateTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LogoNavigateTest"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LogoNavigateTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Аксессуары",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667811372430,
+          "stop": 1667811373047
+        },
+        {
+          "name": "Клик логотип",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667811373047,
+          "stop": 1667811373098
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "37ee96d02ec145a9aa9f9cc588db6bd7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667811369977,
+      "stop": 1667811373414
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667811369976,
+  "stop": 1667811373418
+}

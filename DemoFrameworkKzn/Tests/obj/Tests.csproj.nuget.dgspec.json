@@ -1,0 +1,119 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\git2\\DemoFramewrok\\DemoFrameworkKzn\\Tests\\Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\git2\\DemoFramewrok\\DemoFrameworkKzn\\PageObjects\\PageObjects.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\git2\\DemoFramewrok\\DemoFrameworkKzn\\PageObjects\\PageObjects.csproj",
+        "projectName": "PageObjects",
+        "projectPath": "C:\\git2\\DemoFramewrok\\DemoFrameworkKzn\\PageObjects\\PageObjects.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\git2\\DemoFramewrok\\DemoFrameworkKzn\\Tests\\Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git2\\DemoFramewrok\\DemoFrameworkKzn\\Tests\\Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "C:\\git2\\DemoFramewrok\\DemoFrameworkKzn\\Tests\\Tests.csproj",
+        "packagesPath": "C:\\Users\\semen\\.nuget\\packages\\",
+        "outputPath": "C:\\git2\\DemoFramewrok\\DemoFrameworkKzn\\Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\semen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\git2\\DemoFramewrok\\DemoFrameworkKzn\\PageObjects\\PageObjects.csproj": {
+                "projectPath": "C:\\git2\\DemoFramewrok\\DemoFrameworkKzn\\PageObjects\\PageObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit.ConsoleRunner": {
+              "target": "Package",
+              "version": "[3.15.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[107.0.5304.1800-beta, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

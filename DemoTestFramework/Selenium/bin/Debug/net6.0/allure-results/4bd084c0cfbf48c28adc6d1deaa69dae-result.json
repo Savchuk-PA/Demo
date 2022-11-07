@@ -1,0 +1,87 @@
+{
+  "uuid": "92bd1b6f-c261-4485-8eca-a4f6089cd2ba-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "fullName": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckConfirmBlock18ageInTheAdultPage"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка отображения блока с подтверждением возраста 18+"
+    }
+  ],
+  "links": [],
+  "name": "CheckConfirmBlock18ageInTheAdultPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span data-v-45337954=\"\" class=\"title\">...</span> is not clickable at point (348, 591). Other element would receive the click: <a data-v-45337954=\"\" href=\"/category/Tovary-dlya-vzroslykh-10017\" class=\"parent-category-link\" ui-link=\"\">...</a>\n  (Session info: chrome=107.0.5304.87)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\r\n   at Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 44"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckConfirmBlock18ageInTheAdultPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span data-v-45337954=\"\" class=\"title\">...</span> is not clickable at point (348, 591). Other element would receive the click: <a data-v-45337954=\"\" href=\"/category/Tovary-dlya-vzroslykh-10017\" class=\"parent-category-link\" ui-link=\"\">...</a>\n  (Session info: chrome=107.0.5304.87)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\r\n   at Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 44"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открытие доп раздела 'Ещё' в майн бар",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667270366234,
+          "stop": 1667270366967
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "02e55c82b2ef491690a408ac871a7e2f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667270363985,
+      "stop": 1667270368160
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667270363984,
+  "stop": 1667270368162
+}

@@ -1,0 +1,76 @@
+{
+  "uuid": "8b483d9f-c608-44dc-a74d-24fe464daaa2-tc-0-1000",
+  "name": "Selenium.TestForTests.CheckHideCardItemForVariantNotBlockAdultNotification",
+  "children": [
+    "42491a2d-cb2c-4e33-878a-b01567447ff5-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667268512903,
+      "stop": 1667268512903
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667268512903,
+      "stop": 1667268512903
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667268512903,
+      "stop": 1667268512903
+    },
+    {
+      "name": "OneTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667268512903,
+      "stop": 1667268512903
+    }
+  ],
+  "links": [],
+  "start": 1667268510362,
+  "stop": 1667268512905
+}

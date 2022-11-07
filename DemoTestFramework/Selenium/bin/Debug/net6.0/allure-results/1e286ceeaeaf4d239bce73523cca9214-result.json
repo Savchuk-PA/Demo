@@ -1,0 +1,138 @@
+{
+  "uuid": "c4fdbe15-f25f-49da-8604-5b8f9fae71a3-tr-0-1034",
+  "historyId": "Selenium.TestForTests.CheckRangePrice",
+  "fullName": "Selenium.TestForTests.CheckRangePrice",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckRangePrice"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка соотвествия минимальной цены товара, с автоматически введенной стоимостью товара"
+    }
+  ],
+  "links": [],
+  "name": "CheckRangePrice",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //span[@data-test-id = 'text__price'][1]",
+    "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Text()\r\n   at Selenium.PageObjects.ListProductsPage.GetMinPriceListOfGoodsDouble() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ListProductsPage.cs:line 50\r\n   at Selenium.TestForTests.CheckRangePrice() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 95"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckRangePrice",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //span[@data-test-id = 'text__price'][1]",
+        "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Text()\r\n   at Selenium.PageObjects.ListProductsPage.GetMinPriceListOfGoodsDouble() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ListProductsPage.cs:line 50\r\n   at Selenium.TestForTests.CheckRangePrice() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 95"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Обувь",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809585821,
+          "stop": 1667809585942
+        },
+        {
+          "name": "Выбор критерия сортировки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Клик на кнопку сортровки товара",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667809588333,
+              "stop": 1667809588381
+            },
+            {
+              "name": "Выбор парметра сортировки: Подешевле",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667809588382,
+              "stop": 1667809588498
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Подешевле"
+            }
+          ],
+          "start": 1667809585943,
+          "stop": 1667809588498
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b61874755e4f42f0b19ee18dd654df8e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667809584484,
+      "stop": 1667809588510
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667809584484,
+  "stop": 1667809588510
+}

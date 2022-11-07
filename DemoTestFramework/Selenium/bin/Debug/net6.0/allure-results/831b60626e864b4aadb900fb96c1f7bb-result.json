@@ -1,0 +1,85 @@
+{
+  "uuid": "b1c6f4de-1730-4e1c-a5ca-579764302019-tr-0-1001",
+  "historyId": "Selenium.CheckNameSectionPage.CheckH1SectionOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPage.CheckH1SectionOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckH1SectionOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPage"
+    }
+  ],
+  "links": [],
+  "name": "CheckH1SectionOfTheSite",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //h1[@data-test-id = 'text__title']",
+    "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Text()\r\n   at Selenium.PageObjects.BasePage.__a$_around_GetTextH1TitileInPage_100663359_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 41\r\n   at Selenium.PageObjects.BasePage.__a$_around_GetTextH1TitileInPage_100663359_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.BasePage.__a$_around_GetTextH1TitileInPage_100663359_w_0(Object[] )\r\n   at Selenium.PageObjects.BasePage.GetTextH1TitileInPage()\r\n   at Selenium.CheckNameSectionPage.CheckH1SectionOfTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPage.cs:line 67"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckH1SectionOfTheSite",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //h1[@data-test-id = 'text__title']",
+        "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Text()\r\n   at Selenium.PageObjects.BasePage.__a$_around_GetTextH1TitileInPage_100663359_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 41\r\n   at Selenium.PageObjects.BasePage.__a$_around_GetTextH1TitileInPage_100663359_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.BasePage.__a$_around_GetTextH1TitileInPage_100663359_w_0(Object[] )\r\n   at Selenium.PageObjects.BasePage.GetTextH1TitileInPage()\r\n   at Selenium.CheckNameSectionPage.CheckH1SectionOfTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPage.cs:line 67"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Could not find element by: By.XPath: //h1[@data-test-id = 'text__title']",
+            "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Text()\r\n   at Selenium.PageObjects.BasePage.__a$_around_GetTextH1TitileInPage_100663359_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 41\r\n   at Selenium.PageObjects.BasePage.__a$_around_GetTextH1TitileInPage_100663359_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667227816558,
+          "stop": 1667227816599
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f826208f6edf4437a6d5592f6f1844d5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667227811495,
+      "stop": 1667227819707
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667227811494,
+  "stop": 1667227819709
+}

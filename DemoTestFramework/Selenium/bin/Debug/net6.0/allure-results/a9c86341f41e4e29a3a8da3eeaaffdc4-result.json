@@ -1,0 +1,87 @@
+{
+  "uuid": "73094053-bf9e-4d6c-8fc3-44632c136f44-tr-0-1001",
+  "historyId": "Selenium.TestForTests.AddToFavorites",
+  "fullName": "Selenium.TestForTests.AddToFavorites",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddToFavorites"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Добавление в избраное"
+    }
+  ],
+  "links": [],
+  "name": "AddToFavorites",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentException : Type of member 'List`1' is not IWebElement or IList<IWebElement>",
+    "trace": "   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.CreateObject(Type memberType, IElementLocator locator, IEnumerable`1 bys, Boolean cache)\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.Decorate(MemberInfo member, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator, IPageObjectMemberDecorator decorator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(ISearchContext driver, Object page)\r\n   at Selenium.PageObjects.BasePage..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 20\r\n   at Selenium.PageObjects.ListProductsPage..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ListProductsPage.cs:line 15\r\n   at Selenium.TestForTests.AddToFavorites() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 141"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "AddToFavorites",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentException : Type of member 'List`1' is not IWebElement or IList<IWebElement>",
+        "trace": "   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.CreateObject(Type memberType, IElementLocator locator, IEnumerable`1 bys, Boolean cache)\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.Decorate(MemberInfo member, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator, IPageObjectMemberDecorator decorator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(ISearchContext driver, Object page)\r\n   at Selenium.PageObjects.BasePage..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 20\r\n   at Selenium.PageObjects.ListProductsPage..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ListProductsPage.cs:line 15\r\n   at Selenium.TestForTests.AddToFavorites() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 141"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Обувь",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667681321662,
+          "stop": 1667681322599
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e2ab0c960e824e708350faa4c7e5e2b9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667681319740,
+      "stop": 1667681322624
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667681319740,
+  "stop": 1667681322628
+}

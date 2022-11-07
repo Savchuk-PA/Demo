@@ -1,0 +1,84 @@
+{
+  "uuid": "c87743b2-825d-44ea-ba56-5648c24db79e-tr-0-1017",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionStationeryOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionStationeryOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionStationeryOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Канцтовары"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionStationeryOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionStationeryOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionStationeryOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809531254,
+          "stop": 1667809533795
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "52c6d78ea54341ca9bd8c24c5a80994d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667809529547,
+      "stop": 1667809533797
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667809529547,
+  "stop": 1667809533797
+}

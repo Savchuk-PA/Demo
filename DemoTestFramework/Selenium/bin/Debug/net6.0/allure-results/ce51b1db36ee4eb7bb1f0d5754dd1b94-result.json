@@ -1,0 +1,113 @@
+{
+  "uuid": "4c3250c0-df13-4c12-9cef-0d5505c2d1da-tr-0-1002",
+  "historyId": "Selenium.LoginTests.NegativeLoginShrotPassword",
+  "fullName": "Selenium.LoginTests.NegativeLoginShrotPassword",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "NegativeLoginShrotPassword"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    },
+    {
+      "name": "tag",
+      "value": "Вход под пользователем с коротким паролем. Негативный тест"
+    }
+  ],
+  "links": [],
+  "name": "NegativeLoginShrotPassword",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@data-test-id = 'input__login']\"}\n  (Session info: chrome=106.0.5249.119)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsVisble(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 44\r\n   at Selenium.PageObjects.AuthorizationPageObject.__a$_around_FillOutTheFormAndSubmit_100663346_o(String login, String passsword) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\AuthorizationPageObject.cs:line 44\r\n   at Selenium.PageObjects.AuthorizationPageObject.__a$_around_FillOutTheFormAndSubmit_100663346_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.AuthorizationPageObject.__a$_around_FillOutTheFormAndSubmit_100663346_w_0(Object[] )\r\n   at Selenium.PageObjects.AuthorizationPageObject.FillOutTheFormAndSubmit(String login, String passsword) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\AuthorizationPageObject.cs:line 32\r\n   at Selenium.LoginTests.NegativeLoginShrotPassword() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 58\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "NegativeLoginShrotPassword",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@data-test-id = 'input__login']\"}\n  (Session info: chrome=106.0.5249.119)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsVisble(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 44\r\n   at Selenium.PageObjects.AuthorizationPageObject.__a$_around_FillOutTheFormAndSubmit_100663346_o(String login, String passsword) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\AuthorizationPageObject.cs:line 44\r\n   at Selenium.PageObjects.AuthorizationPageObject.__a$_around_FillOutTheFormAndSubmit_100663346_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.AuthorizationPageObject.__a$_around_FillOutTheFormAndSubmit_100663346_w_0(Object[] )\r\n   at Selenium.PageObjects.AuthorizationPageObject.FillOutTheFormAndSubmit(String login, String passsword) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\AuthorizationPageObject.cs:line 32\r\n   at Selenium.LoginTests.NegativeLoginShrotPassword() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\LoginTests.cs:line 58\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Клик на кнопку Вход",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667216964968,
+          "stop": 1667216965096
+        },
+        {
+          "name": "Заполнение формы авторизации",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Timed out after 5 seconds",
+            "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Selenium.TestBase.WaitElementIsVisble(IWebDriver diver, By locator, Int32 seconds) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestBase.cs:line 44\r\n   at Selenium.PageObjects.AuthorizationPageObject.__a$_around_FillOutTheFormAndSubmit_100663346_o(String login, String passsword) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\AuthorizationPageObject.cs:line 44\r\n   at Selenium.PageObjects.AuthorizationPageObject.__a$_around_FillOutTheFormAndSubmit_100663346_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "+79061177915"
+            },
+            {
+              "name": "String",
+              "value": "aaa7"
+            }
+          ],
+          "start": 1667216965097,
+          "stop": 1667216970273
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a49fd7e6648741c99c3c2e5916b61404-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667216963202,
+      "stop": 1667216970278
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667216963202,
+  "stop": 1667216970278
+}

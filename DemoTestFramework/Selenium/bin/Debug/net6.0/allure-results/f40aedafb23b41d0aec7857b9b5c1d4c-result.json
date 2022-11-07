@@ -1,0 +1,94 @@
+{
+  "uuid": "4435f275-f4aa-40f5-837e-337ca40459f0-tr-0-1001",
+  "historyId": "Selenium.SearchTests.CheckCountCardsProductInPage",
+  "fullName": "Selenium.SearchTests.CheckCountCardsProductInPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCountCardsProductInPage"
+    },
+    {
+      "name": "testClass",
+      "value": "SearchTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка количества отображаемых карточек товара на странице, по поиску товара"
+    }
+  ],
+  "links": [],
+  "name": "CheckCountCardsProductInPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at Selenium.PageObjects.BasePage.__a$_around_InputSearchLine_100663396_o(String str) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 104\r\n   at Selenium.PageObjects.BasePage.__a$_around_InputSearchLine_100663396_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.BasePage.__a$_around_InputSearchLine_100663396_w_0(Object[] )\r\n   at Selenium.PageObjects.BasePage.InputSearchLine(String str) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 137\r\n   at Selenium.SearchTests.CheckCountCardsProductInPage() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\SearchTests.cs:line 56"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckCountCardsProductInPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Selenium.PageObjects.BasePage.__a$_around_InputSearchLine_100663396_o(String str) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 104\r\n   at Selenium.PageObjects.BasePage.__a$_around_InputSearchLine_100663396_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.BasePage.__a$_around_InputSearchLine_100663396_w_0(Object[] )\r\n   at Selenium.PageObjects.BasePage.InputSearchLine(String str) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 137\r\n   at Selenium.SearchTests.CheckCountCardsProductInPage() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\SearchTests.cs:line 56"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Ввод в строку поиска",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Object reference not set to an instance of an object.",
+            "trace": "   at Selenium.PageObjects.BasePage.__a$_around_InputSearchLine_100663396_o(String str) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 104\r\n   at Selenium.PageObjects.BasePage.__a$_around_InputSearchLine_100663396_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Часы"
+            }
+          ],
+          "start": 1667154690051,
+          "stop": 1667154690097
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ecb33e323eb34868a3a832f4b306b434-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667154687876,
+      "stop": 1667154692527
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667154687875,
+  "stop": 1667154692529
+}

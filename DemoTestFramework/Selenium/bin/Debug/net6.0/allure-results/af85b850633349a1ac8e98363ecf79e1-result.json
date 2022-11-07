@@ -1,0 +1,99 @@
+{
+  "uuid": "35ad6bc3-d327-4307-b949-95ecf04815a8-tr-0-1007",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionHealthOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionHealthOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionHealthOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Здоровье"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionHealthOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionHealthOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionHealthOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Здоровье",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809498160,
+          "stop": 1667809498570
+        },
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809498570,
+          "stop": 1667809501002
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5bb4c1ae4377458d8b1054636c2dca05-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667809497125,
+      "stop": 1667809501004
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667809497125,
+  "stop": 1667809501004
+}

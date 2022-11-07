@@ -1,0 +1,87 @@
+{
+  "uuid": "6635619d-1ac2-454c-9f5d-1d7fa95982d1-tr-0-1001",
+  "historyId": "Selenium.TestForTests.AddToFavorites",
+  "fullName": "Selenium.TestForTests.AddToFavorites",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddToFavorites"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Добавление в избраное"
+    }
+  ],
+  "links": [],
+  "name": "AddToFavorites",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+    "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at Selenium.PageObjects.ListProductsPage.AddTofavorite(Int32 num) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ListProductsPage.cs:line 30\r\n   at Selenium.TestForTests.AddToFavorites() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 142"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "AddToFavorites",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+        "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at Selenium.PageObjects.ListProductsPage.AddTofavorite(Int32 num) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ListProductsPage.cs:line 30\r\n   at Selenium.TestForTests.AddToFavorites() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 142"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Обувь",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667681590771,
+          "stop": 1667681591384
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4516a4b5f20b4173aa10e2eab7fcb308-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667681588681,
+      "stop": 1667681596431
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667681588680,
+  "stop": 1667681596433
+}

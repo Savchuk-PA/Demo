@@ -1,0 +1,104 @@
+{
+  "uuid": "8c871741-39a4-4b90-8e62-060fbe9c235c-tr-0-1001",
+  "historyId": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "fullName": "Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckConfirmBlock18ageInTheAdultPage"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка отображения блока с подтверждением возраста 18+"
+    }
+  ],
+  "links": [],
+  "name": "CheckConfirmBlock18ageInTheAdultPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.InvalidSelectorException : Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.",
+    "trace": "   at OpenQA.Selenium.By.ClassName(String classNameToFind)\r\n   at SeleniumExtras.PageObjects.ByFactory.From(FindsByAttribute attribute)\r\n   at SeleniumExtras.PageObjects.FindsByAttribute.get_Finder()\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.CreateLocatorList(MemberInfo member)\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.Decorate(MemberInfo member, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator, IPageObjectMemberDecorator decorator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(ISearchContext driver, Object page)\r\n   at Selenium.PageObjects.BasePage..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 20\r\n   at Selenium.PageObjects.ProductsForAdultsPageObject..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ProductsForAdultsPageObject.cs:line 11\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 254\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_w_0(Object[] )\r\n   at Selenium.PageObjects.BasePage.ProductsForAdultsClickBtn() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 259\r\n   at Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 44"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckConfirmBlock18ageInTheAdultPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.InvalidSelectorException : Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.",
+        "trace": "   at OpenQA.Selenium.By.ClassName(String classNameToFind)\r\n   at SeleniumExtras.PageObjects.ByFactory.From(FindsByAttribute attribute)\r\n   at SeleniumExtras.PageObjects.FindsByAttribute.get_Finder()\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.CreateLocatorList(MemberInfo member)\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.Decorate(MemberInfo member, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator, IPageObjectMemberDecorator decorator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(ISearchContext driver, Object page)\r\n   at Selenium.PageObjects.BasePage..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 20\r\n   at Selenium.PageObjects.ProductsForAdultsPageObject..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ProductsForAdultsPageObject.cs:line 11\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 254\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_w_0(Object[] )\r\n   at Selenium.PageObjects.BasePage.ProductsForAdultsClickBtn() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 259\r\n   at Selenium.TestForTests.CheckConfirmBlock18ageInTheAdultPage() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 44"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открытие доп раздела 'Ещё' в майн бар",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667268703410,
+          "stop": 1667268704587
+        },
+        {
+          "name": "Переход на станицу Товары для взрослых",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.",
+            "trace": "   at OpenQA.Selenium.By.ClassName(String classNameToFind)\r\n   at SeleniumExtras.PageObjects.ByFactory.From(FindsByAttribute attribute)\r\n   at SeleniumExtras.PageObjects.FindsByAttribute.get_Finder()\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.CreateLocatorList(MemberInfo member)\r\n   at SeleniumExtras.PageObjects.DefaultPageObjectMemberDecorator.Decorate(MemberInfo member, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator, IPageObjectMemberDecorator decorator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(Object page, IElementLocator locator)\r\n   at SeleniumExtras.PageObjects.PageFactory.InitElements(ISearchContext driver, Object page)\r\n   at Selenium.PageObjects.BasePage..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 20\r\n   at Selenium.PageObjects.ProductsForAdultsPageObject..ctor(WebDriver driver) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\ProductsForAdultsPageObject.cs:line 11\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_o() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 254\r\n   at Selenium.PageObjects.BasePage.__a$_around_ProductsForAdultsClickBtn_100663445_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667268704587,
+          "stop": 1667268705233
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "56e1fe582ed645bebf6a1ab2e178b574-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667268701225,
+      "stop": 1667268705242
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667268701224,
+  "stop": 1667268705245
+}

@@ -1,0 +1,80 @@
+{
+  "uuid": "c4c97528-86a3-45a3-ae63-c7733d42b9b7-tr-0-1001",
+  "historyId": "Selenium.CheckNameSectionPage.CheckSectionClothingOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPage.CheckSectionClothingOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionClothingOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPage"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionClothingOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionClothingOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionClothingOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667228302175,
+          "stop": 1667228304558
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a44a9323862747bea2a533ccc4b8ac26-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667228298908,
+      "stop": 1667228306984
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667228298908,
+  "stop": 1667228306986
+}

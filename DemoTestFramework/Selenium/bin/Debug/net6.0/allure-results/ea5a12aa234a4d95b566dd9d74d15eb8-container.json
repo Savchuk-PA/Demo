@@ -1,0 +1,76 @@
+{
+  "uuid": "d33127ba-b9c4-455e-a1e7-0e06cb01459e-tc-0-1028",
+  "name": "Selenium.TestForTests.CheckSizeWindowsJSTesting(800,600)",
+  "children": [
+    "8b1b8614-f99c-449d-811e-753029d29d85-tr-0-1038"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667809592143,
+      "stop": 1667809592143
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667809592143,
+      "stop": 1667809592143
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667809592143,
+      "stop": 1667809592143
+    },
+    {
+      "name": "OneTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667809592143,
+      "stop": 1667809592143
+    }
+  ],
+  "links": [],
+  "start": 1667809588511,
+  "stop": 1667809592144
+}

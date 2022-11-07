@@ -1,0 +1,68 @@
+{
+  "uuid": "39949623-639b-4a3c-a325-cf64f1848226-tr-0-1002",
+  "historyId": "Selenium.KazanExpressTests.CheckMainBarNavigate",
+  "fullName": "Selenium.KazanExpressTests.CheckMainBarNavigate",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckMainBarNavigate"
+    },
+    {
+      "name": "testClass",
+      "value": "KazanExpressTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка перехода в разделы майн бар, с главной страницы"
+    }
+  ],
+  "links": [],
+  "name": "CheckMainBarNavigate",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckMainBarNavigate"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckMainBarNavigate",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e2e007ea4fc54123a525280403ba6321-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666629143169,
+      "stop": 1666629148900
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666629143168,
+  "stop": 1666629148903
+}

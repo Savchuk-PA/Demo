@@ -1,0 +1,76 @@
+{
+  "uuid": "7b0cedd5-429d-4d1e-a7bc-79d82733451a-tc-0-1000",
+  "name": "Selenium.TestForTests.ChekBlockPromoProduct",
+  "children": [
+    "1ac90af9-5e41-4159-915d-6104e0eb1e67-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667473462762,
+      "stop": 1667473462762
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667473462762,
+      "stop": 1667473462762
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667473462762,
+      "stop": 1667473462762
+    },
+    {
+      "name": "OneTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1667473462762,
+      "stop": 1667473462762
+    }
+  ],
+  "links": [],
+  "start": 1667473457182,
+  "stop": 1667473462788
+}

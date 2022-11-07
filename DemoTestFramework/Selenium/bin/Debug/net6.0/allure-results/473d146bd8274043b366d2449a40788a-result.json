@@ -1,0 +1,68 @@
+{
+  "uuid": "1ac90af9-5e41-4159-915d-6104e0eb1e67-tr-0-1001",
+  "historyId": "Selenium.TestForTests.ChekBlockPromoProduct",
+  "fullName": "Selenium.TestForTests.ChekBlockPromoProduct",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "ChekBlockPromoProduct"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Отображение блока с промотоваром"
+    }
+  ],
+  "links": [],
+  "name": "ChekBlockPromoProduct",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ChekBlockPromoProduct"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ChekBlockPromoProduct",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "94dac17b0550426899926cd91da692ac-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667473457183,
+      "stop": 1667473462764
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667473457183,
+  "stop": 1667473462767
+}

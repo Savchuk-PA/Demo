@@ -1,0 +1,84 @@
+{
+  "uuid": "8232cd2a-2551-40a3-9891-b0e0648bb3ed-tr-0-1001",
+  "historyId": "Selenium.TestForTests.LogoNavigateTest",
+  "fullName": "Selenium.TestForTests.LogoNavigateTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "LogoNavigateTest"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Клик на логотип, логотип возвращает на главную страницу"
+    }
+  ],
+  "links": [],
+  "name": "LogoNavigateTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LogoNavigateTest"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LogoNavigateTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Клик логотип",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667268182473,
+          "stop": 1667268184728
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bce796f9494446bbb07ac58ae1c46436-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667268179341,
+      "stop": 1667268184740
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667268179341,
+  "stop": 1667268184743
+}

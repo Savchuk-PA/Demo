@@ -1,0 +1,99 @@
+{
+  "uuid": "3896638c-cba9-4dfb-8455-10f315e2cf4d-tr-0-1006",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionBeautyOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionBeautyOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionBeautyOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Красота"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionBeautyOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionBeautyOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionBeautyOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Переход в раздел Красота",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809469936,
+          "stop": 1667809470059
+        },
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667809470059,
+          "stop": 1667809472415
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e59c24e2de7346388dc862622bc5825c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667809468608,
+      "stop": 1667809472417
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667809468608,
+  "stop": 1667809472417
+}

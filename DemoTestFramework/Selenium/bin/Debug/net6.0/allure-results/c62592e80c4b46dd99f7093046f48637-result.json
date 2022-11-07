@@ -1,0 +1,123 @@
+{
+  "uuid": "9cf4bc83-7967-4245-8801-f02cc5815a8a-tr-0-1001",
+  "historyId": "Selenium.CheckRangePriceTests.CheckRangePrice",
+  "fullName": "Selenium.CheckRangePriceTests.CheckRangePrice",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckRangePrice"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckRangePriceTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка выбора дипазона цены"
+    }
+  ],
+  "links": [],
+  "name": "CheckRangePrice",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Selenium.CheckRangePriceTests.CheckRangePrice() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckRangePriceTests.cs:line 35\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckRangePrice",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Selenium.CheckRangePriceTests.CheckRangePrice() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckRangePriceTests.cs:line 35\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Выбор критерия сортировки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Клик на кнопку сортровки товара",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667657190048,
+              "stop": 1667657192429
+            },
+            {
+              "name": "Выбор парметра сортировки: Подешевле",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667657192429,
+              "stop": 1667657192546
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Подешевле"
+            }
+          ],
+          "start": 1667657190048,
+          "stop": 1667657197547
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5a4b856538874126b834d78dedbcba6c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667657186721,
+      "stop": 1667657197620
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667657186720,
+  "stop": 1667657197622
+}

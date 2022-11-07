@@ -1,0 +1,64 @@
+{
+  "uuid": "9c1373d1-eaad-40ad-8c2f-434e7df44974-tr-0-1001",
+  "historyId": "Selenium.KazanExpressTests.test",
+  "fullName": "Selenium.KazanExpressTests.test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "test"
+    },
+    {
+      "name": "testClass",
+      "value": "KazanExpressTests"
+    }
+  ],
+  "links": [],
+  "name": "test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "test"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "test",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b33ab0e775494c7a8114bea1b723ddec-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666527828213,
+      "stop": 1666527838772
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666527828213,
+  "stop": 1666527838774
+}

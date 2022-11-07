@@ -1,0 +1,87 @@
+{
+  "uuid": "6e06ac01-08c7-46ad-bb0c-125c2f94da69-tr-0-1001",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionHouseholdСhemicalsOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionHouseholdСhemicalsOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionHouseholdСhemicalsOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Бытовая химия и личная гигиена"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionHouseholdСhemicalsOfTheSite",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Ожидалось Бытовая химия и личная гигиена, получено Бытовая химия и средства личной гигиены\r\n  Expected string length 30 but was 39. Strings differ at index 16.\r\n  Expected: \"Бытовая химия и личная гигиена\"\r\n  But was:  \"Бытовая химия и средства личной гигиены\"\r\n  ---------------------------^\r\n",
+    "trace": "   at Selenium.CheckNameSectionPageTests.CheckSectionHouseholdСhemicalsOfTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPageTests.cs:line 255\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionHouseholdСhemicalsOfTheSite",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Ожидалось Бытовая химия и личная гигиена, получено Бытовая химия и средства личной гигиены\r\n  Expected string length 30 but was 39. Strings differ at index 16.\r\n  Expected: \"Бытовая химия и личная гигиена\"\r\n  But was:  \"Бытовая химия и средства личной гигиены\"\r\n  ---------------------------^\r\n",
+        "trace": "   at Selenium.CheckNameSectionPageTests.CheckSectionHouseholdСhemicalsOfTheSite() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckNameSectionPageTests.cs:line 255\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667256280703,
+          "stop": 1667256283354
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e4487c12ceb248d18d57c699f1990d51-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667256277200,
+      "stop": 1667256283395
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667256277199,
+  "stop": 1667256283398
+}

@@ -1,0 +1,128 @@
+{
+  "uuid": "98e10868-6175-4075-9673-ab05713d0217-tr-0-1002",
+  "historyId": "Selenium.CheckRangePriceTests.CheckRangePrice(\"Подороже\")",
+  "fullName": "Selenium.CheckRangePriceTests.CheckRangePrice(\"Подороже\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckRangePrice"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckRangePriceTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка соотвествия минимальной цены товара, с введенной стоимостью товара"
+    }
+  ],
+  "links": [],
+  "name": "CheckRangePrice(\"Подороже\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Selenium.CheckRangePriceTests.CheckRangePrice(String SortName) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckRangePriceTests.cs:line 37\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckRangePrice(\"Подороже\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Selenium.CheckRangePriceTests.CheckRangePrice(String SortName) in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckRangePriceTests.cs:line 37\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Выбор критерия сортировки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Клик на кнопку сортровки товара",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667657961505,
+              "stop": 1667657964096
+            },
+            {
+              "name": "Выбор парметра сортировки: Подешевле",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667657964096,
+              "stop": 1667657964246
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Подороже"
+            }
+          ],
+          "start": 1667657961505,
+          "stop": 1667657969257
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "20d9cd54a171405ba6063b3ad1beda9e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667657959780,
+      "stop": 1667657969342
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Подороже"
+    }
+  ],
+  "start": 1667657959780,
+  "stop": 1667657969342
+}

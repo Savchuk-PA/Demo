@@ -1,0 +1,123 @@
+{
+  "uuid": "fdce57fb-6a6a-4eae-8e7e-7f5e4cbefeda-tr-0-1022",
+  "historyId": "Selenium.CheckRangePriceTests.CheckRangePrice",
+  "fullName": "Selenium.CheckRangePriceTests.CheckRangePrice",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckRangePrice"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckRangePriceTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка выбора дипазона цены"
+    }
+  ],
+  "links": [],
+  "name": "CheckRangePrice",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.FormatException : Input string was not in a correct format.",
+    "trace": "   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)\r\n   at System.Double.Parse(String s)\r\n   at Selenium.CheckRangePriceTests.CheckRangePrice() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckRangePriceTests.cs:line 33"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckRangePrice",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.FormatException : Input string was not in a correct format.",
+        "trace": "   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)\r\n   at System.Double.Parse(String s)\r\n   at Selenium.CheckRangePriceTests.CheckRangePrice() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\CheckRangePriceTests.cs:line 33"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Выбор критерия сортировки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Клик на кнопку сортровки товара",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667654212734,
+              "stop": 1667654215150
+            },
+            {
+              "name": "Выбор парметра сортировки: Подешевле",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1667654215151,
+              "stop": 1667654215268
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Подешевле"
+            }
+          ],
+          "start": 1667654212734,
+          "stop": 1667654220283
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f57a8d23586947fd90f5e5f99decdbf8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667654209980,
+      "stop": 1667654220317
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667654209980,
+  "stop": 1667654220317
+}

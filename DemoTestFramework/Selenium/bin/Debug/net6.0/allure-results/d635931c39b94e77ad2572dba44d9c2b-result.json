@@ -1,0 +1,68 @@
+{
+  "uuid": "d194d5c0-f783-4092-adc6-bd372045994f-tr-0-1001",
+  "historyId": "Selenium.TestForTests.LogoTest",
+  "fullName": "Selenium.TestForTests.LogoTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "LogoTest"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Клик на логотип возвращает на главную страницу"
+    }
+  ],
+  "links": [],
+  "name": "LogoTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LogoTest"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LogoTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "236f49a2c50541389172b685a6d42e7d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667262215237,
+      "stop": 1667262218965
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667262215237,
+  "stop": 1667262218967
+}

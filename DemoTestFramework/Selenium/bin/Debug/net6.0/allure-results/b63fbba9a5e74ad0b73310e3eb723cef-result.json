@@ -1,0 +1,84 @@
+{
+  "uuid": "81950e5a-ae98-4c2c-87f2-36e6cd44b6f7-tr-0-1001",
+  "historyId": "Selenium.CheckNameSectionPageTests.CheckSectionConstructionAndRepairOfTheSite",
+  "fullName": "Selenium.CheckNameSectionPageTests.CheckSectionConstructionAndRepairOfTheSite",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSectionConstructionAndRepairOfTheSite"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckNameSectionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Проверка названия раздела Товары для строительства и ремонта"
+    }
+  ],
+  "links": [],
+  "name": "CheckSectionConstructionAndRepairOfTheSite",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSectionConstructionAndRepairOfTheSite"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSectionConstructionAndRepairOfTheSite",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получение имени страницы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1667233317004,
+          "stop": 1667233319391
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8fdc92387e4348a2b61cd5f43ddf046a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667233314046,
+      "stop": 1667233319401
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667233314045,
+  "stop": 1667233319403
+}

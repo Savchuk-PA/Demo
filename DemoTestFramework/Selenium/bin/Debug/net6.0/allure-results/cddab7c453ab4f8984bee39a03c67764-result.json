@@ -1,0 +1,73 @@
+{
+  "uuid": "dbc3da5a-e499-44ea-a2eb-a83672e2d270-tr-0-1003",
+  "historyId": "Selenium.TestForTests.CheckSizeWindowsJSTesting(740,1280)",
+  "fullName": "Selenium.TestForTests.CheckSizeWindowsJSTesting(740,1280)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSizeWindowsJSTesting"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    }
+  ],
+  "links": [],
+  "name": "CheckSizeWindowsJSTesting(740,1280)",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSizeWindowsJSTesting(740,1280)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckSizeWindowsJSTesting(740,1280)",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e5042c4fd2494448ae2c8042f41cc190-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667741879735,
+      "stop": 1667741882225
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "740"
+    },
+    {
+      "name": "Param #1",
+      "value": "1280"
+    }
+  ],
+  "start": 1667741879735,
+  "stop": 1667741882225
+}

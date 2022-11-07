@@ -1,0 +1,71 @@
+{
+  "uuid": "cb8de757-d7c6-42ec-a3b5-ed98f04ff00a-tr-0-1001",
+  "historyId": "Selenium.TestForTests.ChekBlockPromoProduct",
+  "fullName": "Selenium.TestForTests.ChekBlockPromoProduct",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-J93DTEL"
+    },
+    {
+      "name": "package",
+      "value": "Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "ChekBlockPromoProduct"
+    },
+    {
+      "name": "testClass",
+      "value": "TestForTests"
+    },
+    {
+      "name": "tag",
+      "value": "Отображение блока с промотоваром"
+    }
+  ],
+  "links": [],
+  "name": "ChekBlockPromoProduct",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.InvalidSelectorException : Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.",
+    "trace": "   at OpenQA.Selenium.By.ClassName(String classNameToFind)\r\n   at Selenium.PageObjects.BasePage.CheckPromoBlockProductIsVisible() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 317\r\n   at Selenium.TestForTests.ChekBlockPromoProduct() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 68"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ChekBlockPromoProduct",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.InvalidSelectorException : Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.",
+        "trace": "   at OpenQA.Selenium.By.ClassName(String classNameToFind)\r\n   at Selenium.PageObjects.BasePage.CheckPromoBlockProductIsVisible() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\PageObjects\\BasePage.cs:line 317\r\n   at Selenium.TestForTests.ChekBlockPromoProduct() in C:\\git2\\DemoFramewrok\\DemoTestFramework\\Selenium\\TestForTests.cs:line 68"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e766da10f46545598987773c3f180ad0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667473271435,
+      "stop": 1667473274289
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667473271435,
+  "stop": 1667473274292
+}
